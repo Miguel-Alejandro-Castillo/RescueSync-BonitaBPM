@@ -1,0 +1,26 @@
+/src-providedGroovy
+/h2_database
+/process_configurations
+
+#provided web widgets:
+/web_widgets/pb*/
+
+#web component preferences:
+/web_widgets/.metadata
+/web_fragments/.metadata
+/web_page/.metadata
+/web_page/*/js
+/web_fragments/*/*.js
+/web_widgets/*/*.js
+!/web_widgets/*/*.ctrl.js
+
+#only used as user preferences:
+/database_connectors_properties
+
+!/.settings
+/.settings/**
+!/.settings/org.bonitasoft.studio.common.repository.prefs
+!/.settings/org.bonitasoft.studio.common.repository/
+!/.settings/org.bonitasoft.studio.common.repository/uib/
+!/app/
+!/app/web_applications/
