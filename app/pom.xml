@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>ar.com.rescuesync</groupId>
-    <artifactId>rescuesync-parent</artifactId>
+    <artifactId>rescuesync-bonitabpm-parent</artifactId>
     <version>0.0.1</version>
   </parent>
-  <artifactId>rescuesync</artifactId>
-  <name>RescueSync</name>
+  <artifactId>rescuesync-bonitabpm</artifactId>
+  <name>RescueSync-BonitaBPM</name>
   <description>1. Proceso en Bonita Open Solution (Modelado BPM) 
 ● Requisito de modelado: Se deberá implementar el flujo utilizando Bonita Open Solution 
 versión 7.9.0 o superior. 
