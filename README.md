@@ -97,12 +97,18 @@ git clone https://github.com/Miguel-Alejandro-Castillo/RescueSync-BonitaBPM.git
 
 Importar el archivo `.proc` en Bonita Studio.
 
-## Autor
+## Equipo de Trabajo
+- Facundo Nicolás Mendoza
+- Nicolás Beiserman
+- Santiago Choque
+- Miguel Alejandro Castillo Figueroa
+- Juan Cruz Tucci
 
-Miguel Alejandro Castillo Figueroa
+---
 
-## Materia
+Desarrollado en el marco de la asignatura **Desarrollo de Software en Sistemas Distribuidos**.
 
-Desarrollo de Software en Sistemas Distribuidos
+Facultad de Informática  
+Universidad Nacional de La Plata (UNLP)
 
-Trabajo Práctico Integrador 2026
+© 2026 - Equipo RescueSync
