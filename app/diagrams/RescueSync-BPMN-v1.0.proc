@@ -17,8 +17,8 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_jWyiBaZ0EfG__aNESQ6L_g" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_jWyiB6Z0EfG__aNESQ6L_g" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_jWyiBqZ0EfG__aNESQ6L_g" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_jWyiCaZ0EfG__aNESQ6L_g">
-            <targetForm xmi:type="expression:Expression" xmi:id="_jWyiCqZ0EfG__aNESQ6L_g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+          <formMapping xmi:type="process:FormMapping" xmi:id="_jWyiCaZ0EfG__aNESQ6L_g" type="NONE">
+            <targetForm xmi:type="expression:Expression" xmi:id="_zuADYLLdEfGMcrvc5IFQ8w" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_jWyiCKZ0EfG__aNESQ6L_g"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_jWyiC6Z0EfG__aNESQ6L_g" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -32,8 +32,8 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_baQUlKcJEfGqR_1kgwv4Ug" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_baQUlqcJEfGqR_1kgwv4Ug" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_baQUlacJEfGqR_1kgwv4Ug" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_baQUmKcJEfGqR_1kgwv4Ug">
-            <targetForm xmi:type="expression:Expression" xmi:id="_baQUmacJEfGqR_1kgwv4Ug" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+          <formMapping xmi:type="process:FormMapping" xmi:id="_baQUmKcJEfGqR_1kgwv4Ug" type="NONE">
+            <targetForm xmi:type="expression:Expression" xmi:id="_zuADYbLdEfGMcrvc5IFQ8w" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_baQUl6cJEfGqR_1kgwv4Ug"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_baQUmqcJEfGqR_1kgwv4Ug" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -42,15 +42,63 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_qnkYZ6KMEfGM4bfaUYLK2A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_qnkYaKKMEfGM4bfaUYLK2A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_qnkYaaKMEfGM4bfaUYLK2A" name="" content="" returnTypeFixed="true"/>
+          <operations xmi:type="expression:Operation" xmi:id="_1kik4LL2EfGMcrvc5IFQ8w">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_1kik4bL2EfGMcrvc5IFQ8w" name="emergencia" content="emergencia" type="TYPE_VARIABLE" returnType="ar.com.rescuesync.model.Emergencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_1kik4rL2EfGMcrvc5IFQ8w" name="emergencia" dataType="_qnkYk6KMEfGM4bfaUYLK2A" className="ar.com.rescuesync.model.Emergencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_1kik47L2EfGMcrvc5IFQ8w" name="emergenciaInput.zonaAfectada" content="emergenciaInput?.zonaAfectada" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_1kik5LL2EfGMcrvc5IFQ8w" name="emergenciaInput" type="COMPLEX"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_1kik5bL2EfGMcrvc5IFQ8w" type="JAVA_METHOD" expression="setZonaAfectada">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_1kik5rL2EfGMcrvc5IFQ8w">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_1kik57L2EfGMcrvc5IFQ8w" name="emergencia" content="emergencia" type="TYPE_VARIABLE" returnType="ar.com.rescuesync.model.Emergencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_1kik6LL2EfGMcrvc5IFQ8w" name="emergencia" dataType="_qnkYk6KMEfGM4bfaUYLK2A" className="ar.com.rescuesync.model.Emergencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_1kik6bL2EfGMcrvc5IFQ8w" name="emergenciaInput.nivelGravedad" content="emergenciaInput?.nivelGravedad" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_1kik6rL2EfGMcrvc5IFQ8w" name="emergenciaInput" type="COMPLEX"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_1kik67L2EfGMcrvc5IFQ8w" type="JAVA_METHOD" expression="setNivelGravedad">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_1kik7LL2EfGMcrvc5IFQ8w">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_1kik7bL2EfGMcrvc5IFQ8w" name="emergencia" content="emergencia" type="TYPE_VARIABLE" returnType="ar.com.rescuesync.model.Emergencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_1kik7rL2EfGMcrvc5IFQ8w" name="emergencia" dataType="_qnkYk6KMEfGM4bfaUYLK2A" className="ar.com.rescuesync.model.Emergencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_1kik77L2EfGMcrvc5IFQ8w" name="emergenciaInput.descripcionInicial" content="emergenciaInput?.descripcionInicial" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_1kik8LL2EfGMcrvc5IFQ8w" name="emergenciaInput" type="COMPLEX"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_1kik8bL2EfGMcrvc5IFQ8w" type="JAVA_METHOD" expression="setDescripcionInicial">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_qnkYaqKMEfGM4bfaUYLK2A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_qnkYa6KMEfGM4bfaUYLK2A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_qnkYbKKMEfGM4bfaUYLK2A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_qnkYbaKMEfGM4bfaUYLK2A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_qnkYbqKMEfGM4bfaUYLK2A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_2A21KayuEfGhNt0l83QQlQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_2A21KqyuEfGhNt0l83QQlQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_JMtB0LL4EfGMcrvc5IFQ8w" name="registrarEmergencia" content="4d3e40ec-b8c4-4b0d-8460-40cdad13b319" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_2A21KKyuEfGhNt0l83QQlQ"/>
+          <contract xmi:type="process:Contract" xmi:id="_2A21KKyuEfGhNt0l83QQlQ">
+            <inputs xmi:type="process:ContractInput" xmi:id="_1kh90LL2EfGMcrvc5IFQ8w" name="emergenciaInput" type="COMPLEX" dataReference="emergencia">
+              <inputs xmi:type="process:ContractInput" xmi:id="_1kh90bL2EfGMcrvc5IFQ8w" name="zonaAfectada"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_1kh90rL2EfGMcrvc5IFQ8w" name="nivelGravedad"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_1kh907L2EfGMcrvc5IFQ8w" name="descripcionInicial"/>
+            </inputs>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_1kh91LL2EfGMcrvc5IFQ8w" expression="emergenciaInput?.zonaAfectada != null" errorMessage="zonaAfectada is mandatory for Emergencia" name="mandatory_emergenciaInput_zonaAfectada">
+              <inputNames>emergenciaInput</inputNames>
+            </constraints>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_1kh91bL2EfGMcrvc5IFQ8w" expression="emergenciaInput?.nivelGravedad != null" errorMessage="nivelGravedad is mandatory for Emergencia" name="mandatory_emergenciaInput_nivelGravedad">
+              <inputNames>emergenciaInput</inputNames>
+            </constraints>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_1kh91rL2EfGMcrvc5IFQ8w" expression="emergenciaInput?.descripcionInicial != null" errorMessage="descripcionInicial is mandatory for Emergencia" name="mandatory_emergenciaInput_descripcionInicial">
+              <inputNames>emergenciaInput</inputNames>
+            </constraints>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_2A21K6yuEfGhNt0l83QQlQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
@@ -64,8 +112,8 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_2qWY5qpPEfGoZ6gUKq0Gdw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_2qWY56pPEfGoZ6gUKq0Gdw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_2qWY6KpPEfGoZ6gUKq0Gdw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_2qWY6apPEfGoZ6gUKq0Gdw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_2qWY6qpPEfGoZ6gUKq0Gdw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+          <formMapping xmi:type="process:FormMapping" xmi:id="_2qWY6apPEfGoZ6gUKq0Gdw" type="NONE">
+            <targetForm xmi:type="expression:Expression" xmi:id="_zuADYrLdEfGMcrvc5IFQ8w" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_2qWY66pPEfGoZ6gUKq0Gdw"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_2qWY7KpPEfGoZ6gUKq0Gdw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -99,8 +147,8 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_rWVlY61tEfGkRvrEd11-kw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_rWVlZa1tEfGkRvrEd11-kw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_rWVlZK1tEfGkRvrEd11-kw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_ZIj-Ya4SEfG95paOjq0xJQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_ZIj-Yq4SEfG95paOjq0xJQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+          <formMapping xmi:type="process:FormMapping" xmi:id="_ZIj-Ya4SEfG95paOjq0xJQ" type="NONE">
+            <targetForm xmi:type="expression:Expression" xmi:id="_zuADY7LdEfGMcrvc5IFQ8w" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_ZIj-YK4SEfG95paOjq0xJQ"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_ZIj-Y64SEfG95paOjq0xJQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -119,8 +167,8 @@
           <BoundaryIntermediateEvents xmi:type="process:BoundaryTimerEvent" xmi:id="_LGaWwKyoEfGhNt0l83QQlQ" name="Ventana de urgencia" outgoing="_KQNrkKpYEfGoZ6gUKq0Gdw">
             <condition xmi:type="expression:Expression" xmi:id="_IMjKsKpYEfGoZ6gUKq0Gdw" name="00:00:00" content="0L" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Long"/>
           </BoundaryIntermediateEvents>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_3P_oYKc1EfGSnoVaS4_jWA">
-            <targetForm xmi:type="expression:Expression" xmi:id="_3P_oYac1EfGSnoVaS4_jWA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+          <formMapping xmi:type="process:FormMapping" xmi:id="_3P_oYKc1EfGSnoVaS4_jWA" type="NONE">
+            <targetForm xmi:type="expression:Expression" xmi:id="_zuADZLLdEfGMcrvc5IFQ8w" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_3P_BWKc1EfGSnoVaS4_jWA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_3P_oYqc1EfGSnoVaS4_jWA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -134,8 +182,8 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_mpLxtqc2EfGSnoVaS4_jWA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_mpLxuKc2EfGSnoVaS4_jWA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_mpLxt6c2EfGSnoVaS4_jWA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_mpLxuqc2EfGSnoVaS4_jWA">
-            <targetForm xmi:type="expression:Expression" xmi:id="_mpLxu6c2EfGSnoVaS4_jWA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+          <formMapping xmi:type="process:FormMapping" xmi:id="_mpLxuqc2EfGSnoVaS4_jWA" type="NONE">
+            <targetForm xmi:type="expression:Expression" xmi:id="_zuADZbLdEfGMcrvc5IFQ8w" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_mpLxuac2EfGSnoVaS4_jWA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_mpLxvKc2EfGSnoVaS4_jWA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -188,11 +236,14 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_-f7lIqysEfGhNt0l83QQlQ" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <formMapping xmi:type="process:FormMapping" xmi:id="_qnkYc6KMEfGM4bfaUYLK2A">
-        <targetForm xmi:type="expression:Expression" xmi:id="_qnkYdKKMEfGM4bfaUYLK2A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_q4h0ULLZEfGMcrvc5IFQ8w" name="emergencia" dataType="_qnkYk6KMEfGM4bfaUYLK2A" className="ar.com.rescuesync.model.Emergencia">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_q4h0UbLZEfGMcrvc5IFQ8w" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
+      </data>
+      <formMapping xmi:type="process:FormMapping" xmi:id="_qnkYc6KMEfGM4bfaUYLK2A" type="NONE">
+        <targetForm xmi:type="expression:Expression" xmi:id="_zuADZrLdEfGMcrvc5IFQ8w" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
-      <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_qnkYdaKMEfGM4bfaUYLK2A">
-        <targetForm xmi:type="expression:Expression" xmi:id="_qnkYdqKMEfGM4bfaUYLK2A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+      <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_qnkYdaKMEfGM4bfaUYLK2A" type="NONE">
+        <targetForm xmi:type="expression:Expression" xmi:id="_xEv3QLLfEfGMcrvc5IFQ8w" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </overviewFormMapping>
       <connections xmi:type="process:SequenceFlow" xmi:id="_qnkYd6KMEfGM4bfaUYLK2A" target="_2A2OEKyuEfGhNt0l83QQlQ" source="_qnkYYqKMEfGM4bfaUYLK2A">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_qnkYeKKMEfGM4bfaUYLK2A"/>
