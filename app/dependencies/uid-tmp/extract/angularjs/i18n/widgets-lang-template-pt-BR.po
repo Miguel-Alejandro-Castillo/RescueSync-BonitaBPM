@@ -1,0 +1,1573 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: bonita\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: bonita\n"
+"X-Crowdin-Project-ID: 13316\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /support-1.0.x/artifact-builder/widgets-lang-template.pot\n"
+"X-Crowdin-File-ID: 72344\n"
+"Language-Team: Portuguese, Brazilian\n"
+"Language: pt_BR\n"
+"PO-Revision-Date: 2024-11-07 10:08\n"
+
+msgid ","
+msgstr ","
+
+msgid "."
+msgstr "."
+
+msgid "../API/"
+msgstr "../API/"
+
+msgid "../API/formFileUpload"
+msgstr "../API/formFileUpload"
+
+msgid "<a href=\"https://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">ISO 8601</a> String variables (with or without time information)"
+msgstr "<a href=\"https://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">ISO 8601</a> variáveis de caracteres (com ou sem informações de hora)"
+
+msgid "<b><em>Now</em> button</b> sets the selected date and time to the current date and time for the user.\n"
+"            For the time, it is rounded up or down to the closest 5 min value."
+msgstr "<b><em>Agora</em> botão</b> define a data e hora selecionada para a data e hora atual do usuário.\n"
+"            Para o momento, ele é arredondado para cima ou baixo para o valor mais próximo de 5 min."
+
+msgid "<b><em>Today</em> button</b> sets the selected date to the current date for the user.\n"
+"            It doesn't change the selected time, except when the time is not set.\n"
+"            In that case, it's rounded up or down to the closest 5 min value."
+msgstr "<b><em>hoje</em> botão</b> define a data selecionada para a data atual para o usuário.\n"
+"            Não muda o tempo selecionado, exceto quando o tempo não é definido.\n"
+"            Neste caso, isto é arredondado para cima ou para baixo com o valor mais próximo de 5 min."
+
+msgid "<b>With <em>Handle time zone</em> set to \"no\"</b>: User time zone is ignored and the value of the widget does not contain any time zone information (e.g., yyyy-MM-ddTHH:mm:ss)."
+msgstr "<b>Com <em>fuso horário</em> , definido como \"não\"</b>: Fuso horário do usuário é ignorado e o widget não contem qualquer informação do fuso horário (por exemplo, aaaa-MM-DDTHH:mm:ssZ)."
+
+msgid "<b>With <em>Handle time zone</em> set to \"yes\"</b>: the <em>Value</em> of the widget is in UTC (e.g., yyyy-MM-ddTHH:mm:ssZ)."
+msgstr "<b>Com <em>fuso horário</em> , definido como \"sim\"</b>: o<em>valor</em> do widget é em UTC (por exemplo, aaaa-MM-DDTHH:mm:ssZ)."
+
+msgid "<code>Bordered</code><em>(Default: no)</em>: Display cells with border."
+msgstr "<code>Borda</code><em>(Padrão: não)</em>: Exibir células com borda."
+
+msgid "<code>Bordered</code><em>(Defaults: no)</em>: Display cells with border."
+msgstr "<code>Bordo</code><em>(Padrões: não)</em>: Exibir células com borda."
+
+msgid "<code>Condensed</code><em>(Default: no)</em>: Display cells without spacing."
+msgstr "<code>Condensado</code><em>(Padrões: não)</em>: Exibir células sem espaço."
+
+msgid "<code>Condensed</code><em>(Defaults: no)</em>: Display cells without spacing."
+msgstr "<code>Condensado</code><em>(Padrões: não)</em>: Exibir células sem espaço."
+
+msgid "<code>Selected</code> <em>(Default: first tab is selected)</em>: Whether the tab is selected or not"
+msgstr "<code>Selecionado</code> <em>(Padrão: primeira aba está selecionada)</em>: Se a aba está selecionada ou não"
+
+msgid "<code>Title</code>: can be calculated dynamically to display and <b>render html</b>."
+msgstr "<code>Título</code>: pode ser calculado dinamicamente para exibir e <b>renderizar html</b>."
+
+msgid "<code>Zebra-striping</code><em>(Default: yes)</em>: Apply a Zebra style\n"
+"                (this style set a different background color on even and odd lines)."
+msgstr "<code>Zebra-striping</code><em>(Padrões: sim)</em>: Aplicar um estilo Zebra\n"
+"                (este estilo define uma cor de fundo diferente em linhas pares e ímpares)."
+
+msgid "<code>Zebra-striping</code><em>(Defaults: yes)</em>: Apply a Zebra style (this style set a different background color on even and odd lines)."
+msgstr "<code>Zebra-striping</code><em>(Padrões: sim)</em>: Aplique um estilo Zebra (este estilo define uma cor de fundo diferente em linhas pares e ímpares)."
+
+msgid "<code>cssClasses</code> <em>(Default: none)</em>: Add css classes on tab. This css class will\n"
+"            be attached to <strong>tab-heading</strong> html element."
+msgstr "<code>cssClasses</code> <em>(Padrão: nenhum)</em>: Adicionar classes css na guia. Esta classe css será\n"
+"                anexada a <strong>guia título</strong> html."
+
+msgid "<code>disabled</code> <em>(Default: no)</em>: Whether tab is clickable and can be activated."
+msgstr "<code>desabilitou</code> <em>(Padrão: não)</em>: Se a aba é clicável e pode ser ativada."
+
+msgid "<code>hidden</code> <em>(Default: no)</em>: Whether tab is hidden or not."
+msgstr "<code>oculto</code> <em>(Padrão: não)</em>: Se a aba está escondida ou não."
+
+msgid "<em>Add to collection</em> or <em>Remove from collection</em> actions can be used to prepare the data before sending it to the server (e.g. if you have a process/task contract with an input that is multiple). No request will be sent to the server. The button will just update the <em>Collection</em> data which must be a variable of type array (<code>[]</code> in JSON)."
+msgstr "<em>Adicionar à coleção</em> ou <em>Remover da coleção</em> ações podem ser usadas para preparar os dados antes de enviá-los para o servidor (por exemplo, se você tiver um processo/tarefa de contrato com uma entrada que é múltipla). Nenhum pedido será enviado para o servidor. O botão só irá atualizar  <em>Coleção</em> dados que devem ser uma variável de tipo de matriz (<code>[]</code> em JSON)."
+
+msgid "<em>DATE (NOT RECOMMENDED)</em> (based on <code>java.util.Date</code>)"
+msgstr "<em>data (não recomendado)</em> (baseado em <code>java.util.Date</code>)"
+
+msgid "<em>DATE ONLY</em> (based on <code>java.time.LocalDate</code>)"
+msgstr "<em>somente data</em> (baseado em <code>java.time.LocalDate</code>)"
+
+msgid "<em>DATE-TIME (NO TIME ZONE)</em> (based on <code>java.time.LocalDateTime</code>): set the property <em>Handle time zone</em> to \"No\""
+msgstr "<em>data e hora (sem fuso horário)</em> (baseado em <code>java.time.LocalDateTime</code>): defina a propriedade <em>fuso horário</em> para \"Não\""
+
+msgid "<em>DATE-TIME (TIME ZONE)</em> (based on <code>java.time.OffsetDateTime</code>): set the property <em>Handle time zone</em> to \"Yes\""
+msgstr "<em>data e hora (fuso horário)</em> (baseado em <code>java.time.OffsetDateTime</code>): defina a propriedade <em>fuso horário</em> para \"Sim\""
+
+msgid "<em>Failed response value</em>: the variable will be set if the request is unsuccessful (code 4XX)"
+msgstr "<em>Valor de resposta falhou</em>: a variável será definida se o pedido não for bem sucedido (código 4XX)"
+
+msgid "<em>Successful response value</em>: the variable will be set if the request is successful (code 2XX)"
+msgstr "<em>Valor de resposta bem sucedido</em>: a variável será definida se a solicitação for bem sucedida (código 2XX)"
+
+msgid "<i>context.myDocument_ref</i> or <i>myVar.myDocument_ref</i>"
+msgstr "<i>context.myDocument_ref</i> ou <i>myVar.myDocument_ref</i>"
+
+msgid "A <a href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</a> formatted String variable yyyy-MM-ddTHH:mm:ss(Z)"
+msgstr "A <a href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</a> variável de String formatada aaaa-MM-ddTHH:mm:ss(Z)"
+
+msgid "A Bonita REST API URL"
+msgstr "Uma URL Bonita REST API"
+
+msgid "A JSON object"
+msgstr "Um objeto JSON"
+
+msgid "A TabsContainer is a container that has multiple panes, but shows only one pane at a time."
+msgstr "Um TabsContainer é um container que possui vários painéis, mas mostra apenas um painel de cada vez."
+
+msgid "A modal container doesn't work when it is embedded in another container."
+msgstr "Um container modal não funciona quando é encaixado em um outro container."
+
+msgid "A multiple set chart shows one or more set of data"
+msgstr "Um gráfico múltiplo mostra um ou mais conjuntos de dados"
+
+msgid "A single entry will be created in the LocalStorage identified by the form URL."
+msgstr "Uma entrada única será criada no LocalStorage identificado pela URL do formulário."
+
+msgid "A variable that contains a JSON array (single set) or JSON array of arrays (multiple sets) where each array is a set. The data can be obtained by a BDM query, API call (default or extension), or JavaScript that retrieves and formats external data"
+msgstr "Uma variável que contém um array JSON (conjunto único) ou matriz JSON de matrizes (vários conjuntos) onde cada array é um conjunto. Os dados podem ser obtidos por uma consulta BDM, chamada de API (padrão ou extensão), ou JavaScript que recupera e formata dados externos"
+
+msgid "API request parameters"
+msgstr "Parâmetros de requisição API"
+
+msgid "Action"
+msgstr "Ação"
+
+msgid "Add"
+msgstr "Adicionar"
+
+msgid "Add a modal ID, as the button will need to open the right modal container. This ID must be unique within a given page, form, or layout."
+msgstr "Adicione um ID modal, pois o botão precisará abrir o recipiente modal correto. Este ID deve ser único dentro de uma página, formulário ou layout."
+
+msgid "Add a widget to the page where the user will specify the filter. This can be an Input widget\n"
+"                for free-form text, or a Select widget to choose from a preset list."
+msgstr "Adicione um widget à página onde o usuário irá especificar o filtro. Este pode ser um widget de entrada\n"
+"                para texto de forma livre, ou um widget selecionado para escolher de uma lista predefinida."
+
+msgid "Add borders all around the table and between all the columns."
+msgstr "Adicione bordas em torno da tabela e entre todas as colunas."
+
+msgid "Add the following class in style.css asset."
+msgstr "Adicione a seguinte classe no recurso style.css."
+
+msgid "Add to collection"
+msgstr "Adicionar à coleção"
+
+msgid "Add/Remove an Object to/from a collection"
+msgstr "Adicionar/Remover um objeto para/de uma coleção"
+
+msgid "Additional request parameters added to the query string"
+msgstr "Parâmetros de requisição adicionais adicionados à string de consulta"
+
+msgid "Additional request parameters added to the query string as json or javascript object, by using the related variable type"
+msgstr "Parâmetros de solicitação adicionais adicionados à string de consulta como objeto json ou javascript usando o tipo de variável relacionado"
+
+msgid "Advanced options"
+msgstr "Opções avançadas"
+
+msgid "Alignment"
+msgstr "Alinhamento"
+
+msgid "Alignment toolbar"
+msgstr "Barra de Alinhamento"
+
+msgid "Alternate text"
+msgstr "Texto alternativo"
+
+msgid "Alternating gray and transparent backgrounds"
+msgstr "Alternando fundo cinza e transparente"
+
+msgid "Alternatively, you can set the Data source to Variable and use a variable definition to point to\n"
+"            the table content."
+msgstr "Como alternativa, você pode definir a fonte de dados como variável e usar uma definição de variável para apontar para\n"
+"            o conteúdo da tabela."
+
+msgid "Amount"
+msgstr "Quantidade"
+
+msgid "An extended table widget that provides column sorting, filtering, and paging in addition to the\n"
+"            standard table widget capabilities."
+msgstr "Um widget de tabela estendido que fornece classificação, filtragem e paginação de colunas, além dos recursos de widget de tabela padrão\n"
+"."
+
+msgid "Animation"
+msgstr "Animação"
+
+msgid "Another possibility would be adding different containers inside the modal and specify any of the\n"
+"            following classes:"
+msgstr "Outra possibilidade seria adicionar contêineres diferentes dentro do modal e especificar qualquer um dos\n"
+"             seguintes classes:"
+
+msgid "Any boolean variable: <i>myData</i> or <i>myData.attribute</i>"
+msgstr "Qualquer variável booleana: <i>myData</i> ou <i>myData.attribute</i>"
+
+msgid "Any button can close a modal container that contains it when a success happens after any button action."
+msgstr "Qualquer botão pode fechar um container modal que o contém quando um sucesso ocorre após qualquer ação de botão."
+
+msgid "Any variable: <i>myData</i> or <i>myData.attribute</i>"
+msgstr "Qualquer variável: <i>myData</i> ou <i>myData.attribute</i>"
+
+msgid "Any variable: myData or myData.attribute."
+msgstr "Qualquer variável: myData ou myData.attribute."
+
+msgid "Application URL token"
+msgstr "Token da aplicação"
+
+msgid "Application page"
+msgstr "Página da aplicação"
+
+msgid "Array used to populate the table. Can be a list of objects. Use 'Column keys' to refine content"
+msgstr "Um array é utilizado para preencher a tabela. Pode ser uma lista de objetos. Utilize 'Chaves de coluna' para aprimorar o conteúdo"
+
+msgid "As used in the URL after the application token"
+msgstr "Como usado na URL após o token do aplicativo"
+
+msgid "Asset"
+msgstr "Ativo"
+
+msgid "Asset Name"
+msgstr "Nome Ativo"
+
+msgid "Assign before Submit"
+msgstr "Atribuir antes de Enviar"
+
+msgid "Automatically assign the Task to the current user before the execution"
+msgstr "Atribuir automaticamente a tarefa ao usuário atual antes da execução"
+
+msgid "Available values"
+msgstr "Valores disponíveis"
+
+msgid "Available values: <i>bold, italics, underline, strikeThrough, pre, quote</i>"
+msgstr "Valores disponíveis: <i>em negrito, em itálico, sublinhado, strikeThrough, pre, citação</i>"
+
+msgid "Available values: <i>h1, h2, h3, h4, h5, h6, p, ul, ol</i>"
+msgstr "Valores disponíveis: <i>h1, h2, h3, h4, h5, h6, p, ul, ol</i>"
+
+msgid "Available values: <i>html, insertImage, insertLink, insertVideo, wordcount, charcount, undo, redo, clear</i>"
+msgstr "Valores disponíveis: <i>html, insertImage, insertLink, insertVideo, wordcount, charcount, undo, redo, clear</i>"
+
+msgid "Available values: <i>justifyLeft, justifyCenter, justifyRight, indent, outdent</i>"
+msgstr "Valores disponíveis: <i>justifyLeft, justifyCenter, justifyRight, indent, outdent</i>"
+
+msgid "BDM APIs are not yet sortable. For other APIs, test in the preview or refer to the BonitaBPM documentation 'REST API' pages"
+msgstr "As APIs BDM ainda não são classificáveis. Para outras APIs, teste na pré-visualização ou consulte a documentação 'REST API' BonitaBPM"
+
+msgid "Bar"
+msgstr "Barra"
+
+msgid "Bind the <em>formInput</em> variable of your form."
+msgstr "Vincule a <em>formInput</em> variável do seu formulário."
+
+msgid "Bind the filter variable to the Data table widget Filter property."
+msgstr "Vincule a variável filtro à propriedade do filtro da tabela de dados."
+
+msgid "Bind the filter variable to the widget."
+msgstr "Vincular a variável de filtro ao widget."
+
+msgid "Bind to a Variable to filter the table 'Content'"
+msgstr "Associar a uma variável para filtrar a tabela 'Conteúdo'"
+
+msgid "Bonita API"
+msgstr "API Bonita"
+
+msgid "Bonita BPM"
+msgstr "Bonita BPM"
+
+msgid "Bordered"
+msgstr "Borda"
+
+msgid "Calendar for selecting a date (only)"
+msgstr "Calendário para selecionar uma data (apenas)"
+
+msgid "Calendar for selecting a date and time"
+msgstr "Calendário para selecionar uma data e hora"
+
+msgid "Can be a list of objects. Use 'Displayed key' to refine options and 'Returned key' to refine selections"
+msgstr "Pode ser uma lista de objetos. Use 'Displayed key' para refinar opções e 'Returned key' para aprimorar as seleções"
+
+msgid "Can be a list of objects. Use 'Displayed key' to refine suggestions and 'Returned key' to refine selection"
+msgstr "Pode ser uma lista de objetos. Use 'Displayed key' para refinar sugestões e 'Returned key' para aprimorar as seleções"
+
+msgid "Can be any string, hence enabling any symbol (€, $, …) or any abbreviation (EUR, USD, …). Numeric characters will be removed on display"
+msgstr "Pode ser qualquer string, permitindo qualquer símbolo (€, $, …) ou qualquer abreviação (EUR, USD, …). Caracteres numéricos serão removidos na exibição"
+
+msgid "Can be translated using the asset localization.json"
+msgstr "Pode ser traduzido usando o asset localization.json"
+
+msgid "Can be used to fulfill a contract"
+msgstr "Pode ser usado para preencher um contrato"
+
+msgid "Caption"
+msgstr "Legenda"
+
+msgid "Case Id"
+msgstr "Id da instância de processo"
+
+msgid "Case overview"
+msgstr "Visão geral da instância"
+
+msgid "Choose process document if the file is used by a process"
+msgstr "Escolha o documento de processo se o arquivo for usado por um processo"
+
+msgid "Choose true if you want display this modal with an animation, false otherwise"
+msgstr "Escolha verdadeiro se você quer exibir esta modal com uma animação, falso caso contrário"
+
+msgid "Close"
+msgstr "Fechar"
+
+msgid "Close Modal"
+msgstr "Fechar Modal"
+
+msgid "Close modal"
+msgstr "Fechar Modal"
+
+msgid "Close modal on success"
+msgstr "Fechar modal com sucesso"
+
+msgid "Close modal when the action is successful"
+msgstr "Fechar modal quando a ação for bem sucedida"
+
+msgid "Collection"
+msgstr "Coleção"
+
+msgid "Collections"
+msgstr "Coleções"
+
+msgid "Colors"
+msgstr "Cores"
+
+msgid "Column keys"
+msgstr "Chaves de coluna"
+
+msgid "Columns key"
+msgstr "Chave de colunas"
+
+msgid "Comma-separated list"
+msgstr "Lista separada por vírgulas"
+
+msgid "Comma-separated list or bound an array data"
+msgstr "Lista separada por vírgulas ou uma associação de array de dados"
+
+msgid "Comma-separated list or variable"
+msgstr "Lista separada por vírgulas ou variáveis"
+
+msgid "Condensed"
+msgstr "Condensado"
+
+msgid "Condensed table with half padding"
+msgstr "Tabela condensada com meio espaçamento"
+
+msgid "Container used for a form. Eases validation"
+msgstr "Contêiner utilizado para um formulário. Facilita a validação"
+
+msgid "Content"
+msgstr "Conteúdo"
+
+msgid "Control"
+msgstr "Controle"
+
+msgid "Create a filter variable in the variable panel. If you are using an Input widget, this\n"
+"                variable has no value."
+msgstr "Crie uma variável de filtro no painel de variáveis. Se você estiver usando um widget de entrada, essa variável\n"
+"                não tem valor."
+
+msgid "Current frame (_self)"
+msgstr "Quadro atual (_self)"
+
+msgid "Custom URL"
+msgstr "URL personalizada"
+
+msgid "Custom style"
+msgstr "Estilo personalizado"
+
+msgid "Customize the default look and feel as follows:"
+msgstr "Personalizar a aparência padrão da seguinte forma:"
+
+msgid "DELETE"
+msgstr "EXCLUIR"
+
+msgid "Data"
+msgstr "Dado"
+
+msgid "Data saved on click. You might bind it to the variable you use to initialize your form, e.g. 'formInput'"
+msgstr "Dados salvos ao clicar. Você pode vinculá-los à variável que você usa para inicializar seu formulário, por exemplo, 'formInput'"
+
+msgid "Data sent on click"
+msgstr "Dados enviados no clique"
+
+msgid "Data source"
+msgstr "Fonte de dados"
+
+msgid "Data-Table"
+msgstr "Tabela-Dados"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Date & time display"
+msgstr "Exibir Data e Hora"
+
+msgid "Date Placeholder"
+msgstr "Espaço reservado para data"
+
+msgid "Date and time"
+msgstr "Data e hora"
+
+msgid "Date and time can reflect the user time zone (e.g., a meeting day and time) or be absolute, identical everywhere (e.g., opening hours of a store somewhere).\n"
+"            This is controlled by the property <em>Handle time zone</em>."
+msgstr "Data e hora podem reflectir a zona de tempo do usuário (por exemplo, um dia de reunião e hora) ou ser absoluta, idêntica em todo o lado (ex.: horas de abertura de uma loja em algum lugar).\n"
+"            Isso é controlado pela propriedade <em>Área de tempo de uso</em>."
+
+msgid "Date display"
+msgstr "Exibição de data"
+
+msgid "Date objects"
+msgstr "Objetos de data"
+
+msgid "Debounce"
+msgstr "Debate"
+
+msgid "Decimal separator"
+msgstr "Separador Decimal"
+
+msgid "Default label"
+msgstr "Etiqueta padrão"
+
+msgid "Default name"
+msgstr "Nome padrão"
+
+msgid "Defines character(s) separation between currency sign and value"
+msgstr "Define a separação de caracteres entre o sinal e o valor da moeda"
+
+msgid "Defines endpoint URL where the file will be uploaded"
+msgstr "Define a URL onde o arquivo será carregado"
+
+msgid "Describing the content of a data table. To be accessible the description must be relevant (clear and concise)."
+msgstr "Descrever o conteúdo de uma tabela de dados. Para ser acessível, a descrição deve ser relevante (clara e concisa)."
+
+msgid "Determines target application. It is recommended not to hard code it."
+msgstr "Determina a aplicação de destino. Recomenda-se não codificá-la."
+
+msgid "Determines the application theme that will be used by the target page. It is recommended not to hard code it."
+msgstr "Determina o tema da aplicação que será usado pela página de destino. Recomenda-se não codificá-lo."
+
+msgid "Direct link to an external file"
+msgstr "Link direto para um arquivo externo"
+
+msgid "Disabled"
+msgstr "Desativado"
+
+msgid "Display an image from assets or from a URL"
+msgstr "Exibir uma imagem a partir de um ativo ou de uma URL"
+
+msgid "Display or hide the shortcut button to current day"
+msgstr "Exibir ou ocultar o botão de atalho para o dia atual"
+
+msgid "Display or hide the shortcut button to set date and time to now"
+msgstr "Exibir ou ocultar o botão de atalho para definir a data e hora para agora"
+
+msgid "Display the document in the page or a form"
+msgstr "Exibir o documento na página ou um formulário"
+
+msgid "Display type"
+msgstr "Mostrar Tipo"
+
+msgid "Displayed key"
+msgstr "Chave exibida"
+
+msgid "Doughnut"
+msgstr "Anel"
+
+msgid "Dropdown list of available values. The user selects one value"
+msgstr "Lista de valores disponíveis. O usuário seleciona um valor"
+
+msgid "Each element of this property has to match an element of the Columns key property to figure out\n"
+"            which table column can be sorted upon."
+msgstr "Cada elemento dessa propriedade deve corresponder a um elemento da propriedade da chave Colunas para descobrir\n"
+"            em que coluna da tabela pode ser classificada."
+
+msgid "Enter a date (mm/dd/yyyy)"
+msgstr "Insira uma data (dd/mm/yyyy)"
+
+msgid "Enter a time (h:mm:ss a)"
+msgstr "Digite uma hora (h:mm:ss a)"
+
+msgid "Error on upload holder"
+msgstr "Erro no upload do titular"
+
+msgid "Example of a tab title displaying a badge:"
+msgstr "Exemplo de um título de aba exibindo uma medalha:"
+
+msgid "Example of border table:"
+msgstr "Exemplo de borda de tabela:"
+
+msgid "Expendable text input field with HTML formatting, including style, image, links... This widget is based on textAngular."
+msgstr "Campo de entrada de texto disponível com formatação HTML, incluindo estilo, imagem, links... Este widget é baseado em textAngular."
+
+msgid "External API (variable) or URL"
+msgstr "API externa (variável) ou URL"
+
+msgid "Failed response value"
+msgstr "Valor de resposta falhou"
+
+msgid "Field where the user can enter information"
+msgstr "Campo onde o usuário pode inserir informações"
+
+msgid "Field where the user can enter information with a currency formatting."
+msgstr "Campo onde o usuário pode inserir informações em formato de moeda."
+
+msgid "File chooser for uploading a document to a form"
+msgstr "Seletor de arquivos para carregar um documento para um formulário"
+
+msgid "File source"
+msgstr "Arquivo origem"
+
+msgid "File unavailable"
+msgstr "Arquivo indisponível"
+
+msgid "FileName"
+msgstr "Nome do arquivo"
+
+msgid "Filter"
+msgstr "Filtro"
+
+msgid "First"
+msgstr "Primeiro"
+
+msgid "For 'Label' property only. If you choose 'no', HTML code will be escaped instead of being interpreted. If you choose ‘Yes’, this could potentially lead to HTML injections attacks. Please take into account these risks."
+msgstr "Apenas para a propriedade 'Etiqueta'. Se você escolher 'não', o código HTML será escapado em vez de ser interpretado. Se você escolher “Sim”, isso pode potencialmente levar a ataques de injeções HTML. Por favor, leve em conta esses riscos."
+
+msgid "For <em>Start process</em> and <em>Submit task</em> actions the format of the data must meet the process/task contract specifications."
+msgstr "Para <em>Iniciar processo</em> e <em>Enviar tarefa</em> ações que o formato dos dados deve preencher as especificações do contrato de processo/tarefa."
+
+msgid "For HTTP requests and Start process / Submit task actions, you can store the response of the request in a variable using the properties:"
+msgstr "Para solicitações HTTP e Iniciar processo / Enviar tarefas, você pode armazenar a resposta do pedido em uma variável usando as propriedades:"
+
+msgid "For HTTP requests, the following methods are supported:"
+msgstr "Para solicitações HTTP, os seguintes métodos são suportados:"
+
+msgid "For Instance to let users save the draft of the current form:"
+msgstr "Por exemplo, para permitir que os usuários salvem o rascunho do formulário atual:"
+
+msgid "For an error response, the message value is 'error' and the property <em>dataFromSuccess</em> is replaced by a property <em>dataFromError</em>"
+msgstr "Para uma resposta de erro, o valor da mensagem é 'erro' e a propriedade <em>dataFromSuccess</em> é substituída por uma propriedade <em>dataFromError</em>"
+
+msgid "For an example of JavaScript code to handle the message, you can have a look at the asset <em>layout.js</em> in the default application layout (you can retrieve it in the resources section of Bonita Portal Administrator profile)."
+msgstr "Por exemplo de código JavaScript para lidar com a mensagem, você pode olhar para o ativo <em>layout.js</em> no layout padrão da aplicação (você pode recuperá-lo na seção de recursos do perfil Administrador do Portal Bonita)."
+
+msgid "For example #FF0000, #0066FF"
+msgstr "Por exemplo, #FF0000, #0066FF"
+
+msgid "For more information, refer to the <a href=\"javascript:void(0);\" open-help=\"localization\" editor-mode=\"page\"><em>localization</em> help section</a>."
+msgstr "Para mais informações, consulte a <a href=\"javascript:void(0);\" open-help=\"localization\" editor-mode=\"page\"><em>localização</em> seção ajuda</a>."
+
+msgid "Form validation"
+msgstr "Validação de formulários"
+
+msgid "Format"
+msgstr "Formatar"
+
+msgid "Format used to display the date"
+msgstr "Formato usado para exibir a data"
+
+msgid "Format used to display the time"
+msgstr "Formato usado para exibir a hora"
+
+msgid "Formatting toolbar"
+msgstr "Formatando barra de ferramentas"
+
+msgid "Frame"
+msgstr "Quadro"
+
+msgid "GET"
+msgstr "GET"
+
+msgid "Graphical display of numerical data to ease understanding. This widget is based on angular-chart-0.8.1, which is based on Chart.js. For information see http://jtblin.github.io/angular-chart.js/ and http://www.chartjs.org/docs/. Available chart types to display a single set of data are pie, doughnut, and polar area. For multiple sets of data, available chart types are bar, line, and radar."
+msgstr "Exibição gráfica de dados numéricos para facilitar a compreensão. Esta widget é baseada em angular-chart-0.8.1, que é baseada em Chart.js. Para obter informações, consulte http://jtblin.github.io/angular-chart. s/ e http://www.chartjs.org/docs/. Tipos de gráficos disponíveis para exibir um conjunto único de dados são torta, avelã e área polar. Para vários conjuntos de dados, tipos de gráficos disponíveis são barra, linha e radar."
+
+msgid "Group of widgets used to define the arrangement of the page elements. Its content can be repeated over an array"
+msgstr "Grupo de widgets usado para definir a disposição dos elementos da página. Seu conteúdo pode ser repetido através de um array"
+
+msgid "Group of widgets used to define the arrangement of the page elements. Its content is display like in modal."
+msgstr "Grupo de widgets usado para definir a disposição dos elementos da página. Seu conteúdo é exibido como no modal."
+
+msgid "Group of widgets, inside a Tabs container"
+msgstr "Grupo de widgets, dentro de um contêiner Tabs"
+
+msgid "HTTP request"
+msgstr "Solicitação HTTP"
+
+msgid "HTTP status code"
+msgstr "Código de Estado HTTP"
+
+msgid "Handle time zone"
+msgstr "Fuso horário do momento"
+
+msgid "Headers"
+msgstr "Cabeçalhos"
+
+msgid "Here is the format of the message posted to the parent frame in JSON (in the parent frame you will need to call <code>JSON.parse</code> as it is stringified before being sent):"
+msgstr "Aqui está o formato da mensagem postada no quadro pai em JSON (no quadro pai você precisará chamar <code>JSON.parse</code> como está censurado antes de ser enviado):"
+
+msgid "Holds the HTTP status code of the response"
+msgstr "Mantêm o código de status HTTP da resposta"
+
+msgid "Holds the response content from the upload error endpoint. That value can be used to guidance purpose"
+msgstr "Mantém o conteúdo da resposta do ponto de extremidade de erro de upload. Esse valor pode ser usado para orientar a finalidade"
+
+msgid "Holds the response from the upload endpoint. That value can be used to fulfill a contract"
+msgstr "Captura a resposta do carregamento de endpoint. Esse valor pode ser usado para preencher um contrato"
+
+msgid "Holds the response when the request has failed"
+msgstr "Captura a resposta quando a requisição falhar"
+
+msgid "Holds the response when the request is successful"
+msgstr "Captura a resposta quando a requisição for bem sucedida"
+
+msgid "How to customize Zebra-striping"
+msgstr "Como personalizar Zebra-striping"
+
+msgid "How to customize border"
+msgstr "Como personalizar a borda"
+
+msgid "However, <b>the output of the widget is always a Javascript Date object</b>. So it will change the type of the variable bound to the widget <em>Value</em> to a Date object when the user selects a date. This is required in order to ensure backward compatibility for pages designed with older UI Designer versions."
+msgstr "No entanto, <b>a saída do widget é sempre um obejto de Data Javascript</b>. Então vai mudar o tipo da variável vinculado ao widget <em>Valor</em> para um objeto de data, quando o usuário seleciona uma data. Isso é necessário para garantir a compatibilidade com versões anteriores para páginas desenhadas com versões mais antigas do UI Designer."
+
+msgid "However, such a redirection of the current window (frame) won't be performed in Bonita portal nor in an application iframe with id <em>bonitaframe</em> (as in the default application layout). This is due to the fact that Bonita Portal and the default application layout handle the successful response by themselves."
+msgstr "No entanto, um redirecionamento da janela atual (frame) não será realizado no portal Bonita nem em um iframe de aplicação com id <em>bonitaframe</em> (como no layout padrão da aplicação). Isso deve-se ao fato de que o Portal Bonita e o layout padrão da aplicação manipulam por si mesmo a resposta bem sucedida."
+
+msgid "Human task form"
+msgstr "Formulário de tarefa humana"
+
+msgid "If the page is displayed inside an iframe, a JavaScript postMessage will be sent to the <b>parent</b> frame with the status of the response and the properties values of the button widget. Bonita portal, tasklist or the default application layout handle this message differently:"
+msgstr "Se a página for exibida dentro de um iframe, um postMessage JavaScript será enviado para o quadro <b>pai</b> com o status da resposta e os valores das propriedades do widget do botão. O portal Bonita, Lista de Tarefas ou o layout padrão da aplicação manipula esta mensagem de forma diferente:"
+
+msgid "If you choose 'no', HTML code will be escaped instead of being interpreted in row's cells. If you choose ‘Yes’, this could potentially lead to HTML injections attacks. Please take into account these risks."
+msgstr "Se você escolher 'não', o código HTML será escapado em vez de ser interpretado nas células da linha. Se você escolher “Sim”, isso pode potencialmente levar a ataques de injeções HTML. Por favor, leve em conta esses riscos."
+
+msgid "If you choose 'no', HTML code will be escaped instead of being interpreted. If you choose 'Yes', this could potentially lead to HTML injections attacks. Please take into account these risks."
+msgstr "Se você escolher 'não', o código HTML será ignorado em vez de ser interpretado. Se você escolher 'Sim', isso pode potencialmente levar a ataques de injeções HTML. Por favor, leve em conta esses riscos."
+
+msgid "If you choose 'no', HTML code will be escaped instead of being interpreted. If you choose ‘Yes’, this could potentially lead to HTML injections attacks. Please take into account these risks."
+msgstr "Se você escolher 'não', o código HTML será escapado em vez de ser interpretado. Se você escolher “Sim”, isso pode potencialmente levar a ataques de injeções HTML. Por favor, leve em conta esses riscos."
+
+msgid "If you specify an expression, the result must be an array of strings"
+msgstr "Se você especificar uma expressão, o resultado deve ser um array de strings"
+
+msgid "In 'CSS Classes' property add the <code>zebra-custom</code> class"
+msgstr "Na propriedade 'Classes CSS' adicione a classe <code>zebra-custom</code>"
+
+msgid "In 'CSS Classes' property add the following class <code>zebra-custom</code>"
+msgstr "Na propriedade 'Classes CSS' adicione a classe <code>zebra-custom</code>"
+
+msgid "In 'Classes CSS' property add the following value"
+msgstr "Na propriedade 'Classes CSS' adiciona o seguinte valor"
+
+msgid "In a form, a page, or a layout, we recommend to drop modal containers at the bottom of the editor content."
+msgstr "Em um formulário, uma página ou um layout, recomendamos que soltem containers modais na parte inferior do conteúdo do editor."
+
+msgid "In addition to the <em>Successful response value</em> variable, for the <em>POST</em>,<em>PUT</em>,<em>DELETE</em>, <em>Start process</em> and <em>Submit task</em> requests you also have the possibility to define a <em>Target URL on success</em> that will be used to set the current window (frame) location when the request is successful."
+msgstr "Adicionalmente ao <em>valor de resposta bem sucedido</em> para a variável <em>POST</em>,<em>PUT</em>,<em>DELETE</em>, <em>Iniciar processo</em> e <em>Enviar tarefa</em> solicita que você também tenha a possibilidade de definir uma <em>URL de destino no sucesso</em> que será usado para definir a localização atual (frame) quando a solicitação for bem sucedida."
+
+msgid "In some case, you want override your theme to display <b>one specific table</b>, to do this:"
+msgstr "Em algum caso, você quer substituir seu tema para exibir <b>uma tabela específica</b>, para fazer isto:"
+
+msgid "In some case, you want to override your theme to display <b>one</b> data-table with specific line color, to do this:"
+msgstr "Em algum caso, você quer substituir seu tema para exibir <b>uma</b> tabela com cor de linha específica, para fazer isto:"
+
+msgid "In tab title properties add the following value"
+msgstr "As propriedades do título da guia adicionam o seguinte valor"
+
+msgid "In the context of a form container, use $form.$invalid as a Boolean to check form validity in a widget property"
+msgstr "No contexto de um contêiner de formulário, use $form.$inválido como um booleano para verificar a validade do formulário em uma propriedade de widget"
+
+msgid "Includes the localized version of the Technical date format property, to guide the user"
+msgstr "Inclui a versão localizada da propriedade de formato de data técnica, para orientar o usuário"
+
+msgid "Includes the localized version of the Technical time format property, to guide the user"
+msgstr "Inclui a versão localizada da propriedade de formato hora técnico, para orientar o usuário"
+
+msgid "Inline"
+msgstr "Em linha"
+
+msgid "Input field with content completion from a given list"
+msgstr "Campo de entrada com conclusão de conteúdo a partir de uma determinada lista"
+
+msgid "Input: <a href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</a> formatted String (yyyy-MM-dd), Date object or Long number <br>Output: Date object (see widget help)"
+msgstr "Entrada: <a href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</a> formatado String (yyyy-MM-dd), Data objeto ou número Longo <br>Saída: Data objeto (consulte a ajuda do widget)"
+
+msgid "Integer value which contains the debounce model update value in milliseconds. A value of 0 triggers an immediate update. Debounce value cannot be changed once initialized."
+msgstr "Valor inteiro que contém o valor de atualização do modelo de depreciação em milissegundos. Um valor de 0 aciona uma atualização imediata. Valor do retorno não pode ser alterado após inicializado."
+
+msgid "Interpret HTML"
+msgstr "Interpretar HTML"
+
+msgid "Interpret HTML in label"
+msgstr "Interpretar HTML no rótulo"
+
+msgid "Interpret HTML in tab heading"
+msgstr "Interpretar HTML no cabeçalho da aba"
+
+msgid "It is possible to deactivate the animation when the modal appears. The main usage of this option would be to create a wizard, where several modal containers are displayed in a sequence."
+msgstr "É possível desativar a animação quando o modal aparece. O uso principal desta opção seria criar um assistente, onde vários containers modais são exibidos em uma sequência."
+
+msgid "Item"
+msgstr "Item"
+
+msgid "Item to remove"
+msgstr "Item a ser removido"
+
+msgid "Label"
+msgstr "Etiqueta"
+
+msgid "Label hidden"
+msgstr "Etiqueta oculta"
+
+msgid "Label position"
+msgstr "Posição da etiqueta"
+
+msgid "Label width"
+msgstr "Largura da etiqueta"
+
+msgid "Labels"
+msgstr "Etiquetas"
+
+msgid "Last"
+msgstr "Último"
+
+msgid "Lazy loading"
+msgstr "Carregamento tardio "
+
+msgid "Legend hidden"
+msgstr "Legenda oculta"
+
+msgid "Level 1"
+msgstr "Nível 1"
+
+msgid "Level 2"
+msgstr "Nível 2"
+
+msgid "Level 3"
+msgstr "Nível 3"
+
+msgid "Level 4"
+msgstr "Nível 4"
+
+msgid "Level 5"
+msgstr "Nível 5"
+
+msgid "Level 6"
+msgstr "Nível 6"
+
+msgid "Line"
+msgstr "Linha"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Link to display or download a document"
+msgstr "Link para exibir ou baixar um documento"
+
+msgid "List from column keys"
+msgstr "Listar das chaves das colunas"
+
+msgid "Localization"
+msgstr "Localização"
+
+msgid "Long number values (Milliseconds since epoch)"
+msgstr "Valores de número longo (milissegundos desde período)"
+
+msgid "MM/dd/yyyy"
+msgstr "MM/dd/yyyy"
+
+msgid "Make sure the technical format value and its translations is a valid <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">date format</a>."
+msgstr "Certifique-se de que o valor do formato técnico e suas traduções são válidos <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">formato data</a>."
+
+msgid "Make sure the technical format values and their translations are valid <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">date/time formats</a>."
+msgstr "Certifique-se de que os valores do formato técnico e suas traduções são válidos <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">formatos de data/hora</a>."
+
+msgid "Max value"
+msgstr "Valor máximo"
+
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Min value"
+msgstr "Valor mínimo"
+
+msgid "Miscellaneous toolbar"
+msgstr "Barra de ferramentas diversas"
+
+msgid "Modal"
+msgstr "Modal"
+
+msgid "Modal Id"
+msgstr "Id Modal"
+
+msgid "Modals"
+msgstr "Modal"
+
+msgid "Multi-line, expandable, text input field"
+msgstr "Multi-linha, expansível, campo de entrada de texto"
+
+msgid "Multiple groups of widgets, each group in a tab"
+msgstr "Vários grupos de widgets, cada grupo em uma aba"
+
+msgid "Multiple set charts"
+msgstr "Gráficos múltiplos"
+
+msgid "Must be set to 'no' to enable input validation within the tab."
+msgstr "Deve ser definido como \"não\" para ativar a validação de entrada dentro da guia."
+
+msgid "Navigation link to another page or form"
+msgstr "Link de navegação para outra página ou formulário"
+
+msgid "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br/>consectetur,<br/>adipisci velit..."
+msgstr "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br/>consectetur,<br/>adipisci velit..."
+
+msgid "New window (_blank)"
+msgstr "Nova janela (_blank)"
+
+msgid "Next page to display, for applications. In the Portal, it is ignored as navigation is managed automatically"
+msgstr "Próxima página a ser exibida, para aplicações. No portal é ignorado como a navegação é gerenciada automaticamente"
+
+msgid "No"
+msgstr "Não"
+
+msgid "No: user time zone is ignored. <br>Yes: display/input reflects the user time zone and may be different from value"
+msgstr "Não: fuso horário do usuário é ignorado. <br>Sim: exibir/entrada reflete a zona de tempo do usuário e pode ser diferente do valor"
+
+msgid "Now"
+msgstr "Agora"
+
+msgid "Now button label"
+msgstr "Rótulo do botão agora"
+
+msgid "Number of array elements defines the number of times the container structure is repeated. Array data is available to widgets in the container"
+msgstr "O número de elementos do array define o número de vezes que a estrutura do contêiner é repetida. Os dados da matriz estão disponíveis para widgets no contêiner"
+
+msgid "Number of decimal"
+msgstr "Número de decimais"
+
+msgid "Number of digits after the decimal separator"
+msgstr "Número de dígitos após o separador decimal"
+
+msgid "Numerical value entered by user input formatted as float number. A rounding is applied."
+msgstr "Valor numérico inserido pelo entrada do usuário formatada como número flutuante. Um arredondamento é aplicado."
+
+msgid "Object key to display"
+msgstr "Chave do objeto a ser exibido"
+
+msgid "Object key to display. Leave it empty for whole object"
+msgstr "Chave do objeto a ser exibida. Deixe em branco para todo o objeto"
+
+msgid "Only works with formats supported by the browser (by default PDF and image)"
+msgstr "Somente funciona com formatos suportados pelo navegador (por padrão PDF e imagem)"
+
+msgid "Open Modal"
+msgstr "Abrir Modal"
+
+msgid "Open modal"
+msgstr "Abrir Modal"
+
+msgid "POST"
+msgstr "POST"
+
+msgid "PUT"
+msgstr "PUT"
+
+msgid "Page size"
+msgstr "Tamanho da página"
+
+msgid "Page token"
+msgstr "Token da página"
+
+msgid "Parent frame (_parent)"
+msgstr "Quadro pai (_parent)"
+
+msgid "Perform an HTTP request"
+msgstr "Executar um pedido HTTP"
+
+msgid "Pie"
+msgstr "Pizza"
+
+msgid "Placeholder"
+msgstr "Espaço reservado"
+
+msgid "Polar Area"
+msgstr "Área polar"
+
+msgid "Preview of"
+msgstr "Pré-visualização de"
+
+msgid "Process document"
+msgstr "Processar documento"
+
+msgid "Process instantiation form"
+msgstr "Formulário de instanciação do processo"
+
+msgid "Process name"
+msgstr "Nome do Processo"
+
+msgid "Process version"
+msgstr "Versão do processo"
+
+msgid "Radar"
+msgstr "Radar"
+
+msgid "Read-only"
+msgstr "Somente leitura"
+
+msgid "Read-write binding, initialized or updated by users' input (bi-directional bond)"
+msgstr "Associação read-write, inicializado ou atualizado pela entrada dos usuários (ligação bi-direcional)"
+
+msgid "Referenced in a case context (current case or other cases)"
+msgstr "Referenciado num caso (caso atual ou outros casos)"
+
+msgid "Remove"
+msgstr "Excluir"
+
+msgid "Remove from collection"
+msgstr "Remover da coleção"
+
+msgid "Repeat container content. Variable of type array"
+msgstr "Repetir conteúdo do contêiner. Variável do tipo array"
+
+msgid "Request"
+msgstr "Requisição"
+
+msgid "Required"
+msgstr "Obrigatório"
+
+msgid "Response"
+msgstr "Resposta"
+
+msgid "Returned key"
+msgstr "Chave retornada"
+
+msgid "Save a variable to the LocalStorage"
+msgstr "Salvar uma variável para o LocalStorage"
+
+msgid "Save data to / Load data from LocalStorage."
+msgstr "Salvar dados para / carregar dados do LocalStorage."
+
+msgid "Save draft"
+msgstr "Salvar rascunho"
+
+msgid "See <a href=\"https://github.com/chartjs/Chart.js/tree/v1.0.2/docs\" target=\"_blank\">chart.js</a> for details of the chart options for each type of chart. Specify a JSON structure corresponding to the options you want"
+msgstr "Veja <a href=\"https://github.com/chartjs/Chart.js/tree/v1.0.2/docs\" target=\"_blank\">chart.js</a> para detalhes das opções de gráfico para cada tipo de gráfico. Especifique uma estrutura JSON correspondente às opções desejadas"
+
+msgid "Select"
+msgstr "Selecionar"
+
+msgid "Select an option"
+msgstr "Selecione uma opção"
+
+msgid "Selected"
+msgstr "Selecionado"
+
+msgid "Selected Row"
+msgstr "Linha selecionada"
+
+msgid "Selected Value"
+msgstr "Valor selecionado"
+
+msgid "Selected values"
+msgstr "Valores selecionados"
+
+msgid "Send data to this URL when the button is clicked"
+msgstr "Enviar dados para esta URL quando o botão é clicado"
+
+msgid "Set <code>Bordered</code> property at true."
+msgstr "Definir propriedad <code>Bordas</code> em sim."
+
+msgid "Set labels"
+msgstr "Definir etiqueta"
+
+msgid "Set of buttons for mutually exclusive options. The user selects one option"
+msgstr "Conjunto de botões para opções mutuamente exclusivas. O usuário seleciona uma opção"
+
+msgid "Set of checkboxes for options. The user selects zero or more"
+msgstr "Conjunto de caixas de seleção para opções. O usuário seleciona zero ou mais"
+
+msgid "Set the Data source to Bonita API to populate the data table with records from a Bonita REST\n"
+"            API."
+msgstr "Defina a fonte de dados para a API Bonita para preencher a tabela de dados com registros de um API Bonita REST\n"
+"."
+
+msgid "Set the input time on the same line as the input date"
+msgstr "Defina a hora de entrada na mesma linha que a data de entrada"
+
+msgid "Set to 'yes' to load the content only when tab is active"
+msgstr "Defina 'sim' para carregar o conteúdo apenas quando a guia estiver ativa"
+
+msgid "Setting this property to <code>no</code> will load the content of each tab during the initial page load, which may result in slower loading times."
+msgstr "A definição dessa propriedade como <code>no</code> carregará o conteúdo de cada guia durante o carregamento inicial da página, o que pode resultar em tempos de carregamento mais lentos."
+
+msgid "Short hint that describes the expected input format for the date"
+msgstr "Dica curta que descreve o formato de entrada esperado para a data"
+
+msgid "Short hint that describes the expected input format for the time"
+msgstr "Dica curta que descreve o formato de entrada esperado para a hora"
+
+msgid "Short hint that describes the expected value"
+msgstr "Pequena dica que descreve o valor esperado"
+
+msgid "Short string or paragraph of text to be displayed. Can include HTML tags"
+msgstr "Texto curto ou parágrafo de texto a ser exibido. Pode incluir tags HTML"
+
+msgid "Should contain time zone information only when 'Handle time zone' is set to 'yes'"
+msgstr "Deve conter informações de fuso horário, somente quando 'Identificador de fuso horário' é definida como 'Sim'"
+
+msgid "Show Now button"
+msgstr "Mostrar botão Agora"
+
+msgid "Show Today button"
+msgstr "Mostrar botão Hoje"
+
+msgid "Show preview"
+msgstr "Mostrar sumário"
+
+msgid "Single set charts"
+msgstr "Gráficos simples"
+
+msgid "Size"
+msgstr "Tamanho"
+
+msgid "Sort"
+msgstr "Ordenar"
+
+msgid "Sortable columns"
+msgstr "Colunas ordenáveis"
+
+msgid "Source Type"
+msgstr "Tipo de origem"
+
+msgid "Specifies an alternate text for an image. The text should describe the image if the image contains information or should be left empty if the image is only for decoration"
+msgstr "Especifica um texto alternativo para uma imagem. O texto deve descrever a imagem se a imagem contém informações ou deve ser deixada em branco se a imagem for apenas para decoração"
+
+msgid "Specifies the case (process instance) Id"
+msgstr "Especifica o ID do caso (instância de processo)"
+
+msgid "Specifies the legal number intervals between values"
+msgstr "Especifica os intervalos de números legais entre valores"
+
+msgid "Specifies the process name"
+msgstr "Especifica o nome do processo"
+
+msgid "Specifies the process version"
+msgstr "Especifica a versão do processo"
+
+msgid "Specifies the task instance Id"
+msgstr "Especifica o ID da instância da tarefa"
+
+msgid "Specifies the type of link to create"
+msgstr "Especifica o tipo de link para criar"
+
+msgid "Specifies where to open the linked document"
+msgstr "Especifica onde abrir o documento vinculado"
+
+msgid "Start a process"
+msgstr "Iniciar processo"
+
+msgid "Start process"
+msgstr "Iniciar processo"
+
+msgid "Step"
+msgstr "Passo"
+
+msgid "Style"
+msgstr "Estilo"
+
+msgid "Style toolbar"
+msgstr "Barra de ferramentas de Estilos"
+
+msgid "Styling zebra-striping can be done in the theme.css file to customize <b>all</b> the tables."
+msgstr "O estilo de zebra-striping pode ser feito no arquivo theme.css para personalizar <b> todas </b> as tabelas."
+
+msgid "Styling zebra-striping can be done in the theme.css file to customize all data-tables."
+msgstr "O estilo de zebra-striping pode ser feito no arquivo theme.css para personalizar todas as tabelas."
+
+msgid "Subgroup of toolbar buttons for extra options"
+msgstr "Subgrupo de botões da barra de ferramentas para opções extras"
+
+msgid "Subgroup of toolbar buttons to arrange the text layout"
+msgstr "Subgrupo de botões da barra de ferramentas para organizar o layout do texto"
+
+msgid "Subgroup of toolbar buttons to set how the text looks"
+msgstr "Subgrupo de botões da barra de ferramentas para definir como o texto aparece"
+
+msgid "Subgroup of toolbar buttons to structure the text"
+msgstr "Subgrupo de botões da barra de ferramentas para estruturar o texto"
+
+msgid "Submit"
+msgstr "Enviar"
+
+msgid "Submit a task"
+msgstr "Executar a tarefa"
+
+msgid "Submit task"
+msgstr "Executar a tarefa"
+
+msgid "Successful response value"
+msgstr "Valor de resposta bem-sucedida"
+
+msgid "Symbol"
+msgstr "Símbolo"
+
+msgid "Symbol indentation"
+msgstr "Símbolo recuo"
+
+msgid "Symbol position"
+msgstr "Posição do símbolo"
+
+msgid "Tab properties usage"
+msgstr "Uso de propriedades de guia"
+
+msgid "Tab x"
+msgstr "Tab x"
+
+msgid "Table"
+msgstr "Tabela"
+
+msgid "Table with pagination and filtering capabilities"
+msgstr "Tabela com paginação e capacidades de filtragem"
+
+msgid "Tabs container"
+msgstr "Contêiner de abas"
+
+msgid "Tabular presentation of data from an array"
+msgstr "Apresentação tabular dos dados de um array"
+
+msgid "Target URL on success"
+msgstr "URL de destino em caso de sucesso"
+
+msgid "Task Id"
+msgstr "Id da tarefa"
+
+msgid "Technical Format"
+msgstr "Formato técnico"
+
+msgid "Technical date format"
+msgstr "Formato de data técnica"
+
+msgid "Technical time format"
+msgstr "Formato técnico da hora"
+
+msgid "Text"
+msgstr "Texto"
+
+msgid "Text used to structure the page or form content"
+msgstr "Texto usado para estruturar o conteúdo da página ou do formulário"
+
+msgid "The <code>Sortable columns</code> property enables to list the columns which allow a sorted search."
+msgstr "A propriedade <code>Colunas ordenadas</code> permite listar as colunas que permitem uma pesquisa ordenada."
+
+msgid "The <em>Close modal</em> action will close the modal container that contains the button when it is pressed."
+msgstr "A ação <em>Fechar modal</em> fechará o container modal que contém o botão quando for pressionado."
+
+msgid "The <em>Open modal</em> action can be used to open any modal container on the page. To point towards the right one, specify the ID in the button's \"Modal ID\" property."
+msgstr "A ação <em>Abrir modal</em> pode ser usada para abrir qualquer container modal na página. Para apontar corretamente, especifique o ID na propriedade \"ID Modal\" do botão."
+
+msgid "The <em>Technical date format</em> and <em>Technical time format</em> properties define the format of the values displayed in the date and time inputs.\n"
+"            They should be valid <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">AngularJS date/time formats</a>."
+msgstr "A <em>formato técnico data</em> e <em>formato técnico hora</em> propriedades definem o formato dos valores exibidos na entrada da data e hora.\n"
+"            Eles devem ser válidos <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">formatos de data/hora do AngularJS</a>."
+
+msgid "The <em>Technical date format</em> property define the format of the values displayed in the date input.\n"
+"        It should be a valid <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">AngularJS date format</a>."
+msgstr "A <em>data técnica</em> a propriedade define o formato dos valores exibidos na data de entrada.\n"
+"        Ela deve ser válida <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">formato data do AngularJS</a>."
+
+msgid "The <em>data sent on click</em> for POST and PUT requests must be a JavaScript Object (JSON can be used). This data will be sent in the body of the request."
+msgstr "Os <em>dados enviados no clique</em> para solicitações POST e PUT devem ser um objeto JavaScript (JSON pode ser usado). Esses dados serão enviados no corpo da solicitação."
+
+msgid "The Display Type property allows you to customize the tabs style ('tabs' or 'pills')."
+msgstr "A propriedade Tipo de Exibição permite que você personalize o estilo das abas ('abas' ou 'comprimidos')."
+
+msgid "The character separator to the fraction"
+msgstr "O caractere separador para a fração"
+
+msgid "The character used as the thousands separator"
+msgstr "O caractere usado como o separador de milhares"
+
+msgid "The content of <em>Label</em>, <em>Technical date format</em>, <em>Placeholder</em> properties, as well as the label of button <em>Today</em> are localized by default. Localized format can be edited in the asset <em>localization.json</em>."
+msgstr "O conteúdo da <em>Etiqueta</em>, <em>formatos de data técnica</em>, <em>Posicionador</em> propriedades, bem como os rótulos dos botões <em>Hoje/Agora</em> são localizados por padrão. Formatos localizados podem ser editados no arquivo <em>de localization.json</em>."
+
+msgid "The content of <em>Label</em>, <em>Technical date formats</em>, <em>Placeholder</em> properties, as well as the labels of buttons <em>Today/Now</em> are localized by default. Localized formats can be edited in the asset <em>localization.json</em>."
+msgstr "O conteúdo da <em>Etiqueta</em>, <em>formatos de data técnica</em>, <em>Posicionador</em> propriedades, bem como os rótulos dos botões <em>Hoje/Agora</em> são localizados por padrão. Formatos localizados podem ser editados no arquivo <em>de localization.json</em>."
+
+msgid "The default application layout will retrieve the <em>Target URL on success</em> that was sent in the message and set its window location with it."
+msgstr "O layout padrão da aplicação recuperará a <em>URL de destino no sucesso</em> que foi enviado na mensagem e defini sua localização de janela com ela."
+
+msgid "The display of dates and times relies on the user's browser time zone. Therefore, displayed values are different from stored values (except in the GMT time zone)."
+msgstr "A exibição de datas e horas depende do fuso horário do navegador do usuário. Por conseguinte, os valores exibidos são diferentes dos valores armazenados (exceto na zona de tempo do GMT)."
+
+msgid "The following documentation applies if you need to handle the behavior on success yourself (e.g. if you build your own tasklist or any page with an iframe to display forms)."
+msgstr "A seguinte documentação se aplica se você precisa lidar com o comportamento no sucesso sozinho (por exemplo, se você construir sua própria lista de tarefas ou qualquer página com um iframe para exibir formulários)."
+
+msgid "The hex codes for the sector colors for single set charts, or for the set colors for multiple set charts. If not specified, default colors are used"
+msgstr "Os códigos hexadecimais para as cores do setor para gráficos simples, ou cores para os conjuntos de dados para gráficos múltiplos. Se não for especificado, as cores padrões serão usadas"
+
+msgid "The input/output of the widget (its <em>Value</em>) is an <a href=\"https://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">ISO 8601</a> formatted String variable."
+msgstr "A entrada/saída do widget (seu <em>Valor</em>) é que um <a href=\"https://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">ISO 8601</a> formatado como variável de sequência de caracteres."
+
+msgid "The legend shows the sector labels for single set charts, and the set labels for multiple set charts"
+msgstr "A legenda mostra as etiquetas do setor para gráficos simples e as etiquetas de conjunto para gráficos múltiplos"
+
+msgid "The modal size can be selected in the container <em>Size</em> properties. Options available are small,\n"
+"            medium or large, which will control the width of the modal."
+msgstr "O tamanho do modal pode ser selecionado nas propriedades do contêiner <em>Tamanho</em>. As opções disponíveis são pequenas,\n"
+"            média ou grande, que controlará a largura do modal."
+
+msgid "The modal style can be improved by using the <em>modal-body</em> specific class into the <em>CSS\n"
+"            Classes</em> property field."
+msgstr "O estilo modal pode ser melhorado usando o <em>modal-body</em> classe específica para o <em>CSS\n"
+"            Classes</em> campo de propriedade."
+
+msgid "The name of the key to use as label. Can be empty"
+msgstr "O nome da chave utilizada como etiqueta. Pode ser vazio"
+
+msgid "The name of the key to use as value. Leave it empty for whole object"
+msgstr "O nome da chave utilizada como valor. Deixe-a vazia para utilizar o objeto completo"
+
+msgid "The portal and tasklist will redirect to the process list (<em>Start process</em> action) or refresh the task list (<em>Submit task</em> action)."
+msgstr "O portal e a lista de tarefas redirecionarão para a lista de processos (ação <em>Iniciar processo</em>) ou atualizar a lista de tarefas (ação <em>Enviar tarefa</em>)."
+
+msgid "The position of the currency symbol"
+msgstr "A posição do símbolo da moeda"
+
+msgid "The property <em>Value to add</em> can either be a JavaScript Object or a String depending on the format expected for the collection you are building."
+msgstr "A propriedade <em>Valor para adicionar</em> pode ser um objeto JavaScript ou uma String dependendo do formato esperado para a coleção que você está construindo."
+
+msgid "The scale labels for the x-axis for line and bar charts, ray labels for a radar chart, sector labels for single set charts"
+msgstr "As etiquetas do eixo x-axis para gráficos de linhas e barras, do raio para um gráfico de radar, do setor para gráficos únicos"
+
+msgid "The sort is backend when datasource is Bonita API. It is frontend, otherwise."
+msgstr "O tipo é backend quando a fonte de dados é Bonita API. É frontend, caso contrário."
+
+msgid "The tab's properties allows you to customize default display and behaviour of tabs based on data and/or JS expressions."
+msgstr "As propriedades da guia permitem que você personalize o comportamento e exibição padrão de guias baseadas em dados e/ou expressões JS."
+
+msgid "The values of all properties are also used as translation keys. As a result, if you choose not to keep the default values, update the asset <em>localization.json</em> accordingly."
+msgstr "Os valores de todas as propriedades também são usados como chaves de tradução. Como resultado, se você escolher não manter os valores padrão, atualize o ativo <em>localization.json.</em> apropriadamente."
+
+msgid "Then, provide a comma-separated list for the columns keys indicating the attribute to display in each column."
+msgstr "Em seguida, forneça uma lista separada por vírgulas para as chaves que indicam o atributo a ser exibido em cada coluna."
+
+msgid "This modal is based on ui-bootstrap implementation. It is possible to change the size or the style\n"
+"            of the modal."
+msgstr "Esta modal é baseada na implementação ui-bootstrap. É possível alterar o tamanho ou o estilo\n"
+"            da modal."
+
+msgid "This widget can be used to display/update business variable attributes defined in the Business Data Model (BDM) with the following types:"
+msgstr "Este widget pode ser usado para exibir/atualizar atributos de variável de negócios definidos em Modelo de Dados do Negócio (BDM) com os seguintes tipos:"
+
+msgid "This widget supports the following types for its <em>Value</em> property as input:"
+msgstr "Este widget suporta os seguintes tipos de propriedades de <em>Valor</em> como entrada:"
+
+msgid "Thousands separator"
+msgstr "Separador de Milhares"
+
+msgid "Time Placeholder"
+msgstr "Espaço reservado"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Title level"
+msgstr "Nível do título"
+
+msgid "To Display the tab vertically and on the left of the content, you can read this <a href=\"https://www.bonitasoft.com/bos_redirect.php?bos_redirect_id=712&bos_redirect_product=bos&bos_redirect_major_version=7.10\">how\n"
+"            to learn more about customization</a>"
+msgstr "Para exibir a guia verticalmente e à esquerda do conteúdo, você pode ler isso <a href=\"https://www.bonitasoft.com/bos_redirect.php?bos_redirect_id=712&bos_redirect_product=bos&bos_redirect_major_version=7.10\">como\n"
+"            aprender mais sobre a personalização</a>"
+
+msgid "To close a modal window, put a button inside the modal that you wish to close and select the <em>Close\n"
+"            modal</em> action."
+msgstr "Para fechar uma janela modal, coloque um botão dentro da janela que você deseja fechar e selecionar a ação <em>Fechar\n"
+"            modal</em>."
+
+msgid "To control modal containers, the following methods are available in a button:"
+msgstr "Para controlar containers modais, os seguintes métodos estão disponíveis em um botão:"
+
+msgid "To control modal containers, the following methods are supported:"
+msgstr "Para controlar containers modais, os seguintes métodos são suportados:"
+
+msgid "To define the tab selected by default"
+msgstr "Para definir a aba selecionada por padrão"
+
+msgid "To display (and not update) a date and a time retrieved from the BDM API (or another API), you can either use this <em>Date time picker</em> widget with <em>Read-only</em> property set to \"yes\" or use a <em>Text</em>, <em>Title</em> or a <em>Table</em> widget and format the value using the provided <em>uiDate</em> <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filter</a>."
+msgstr "Para exibir (e não atualizar) uma data e um horário recuperados da API do BDM (ou de outra API), você pode usar este widget <em>Seletor de data e hora</em> com <em>Somente leitura</em> propriedade definida como \"sim\" ou use um <em>Texto</em>, <em>Titulo</em> ou um widget <em>Tabela</em> e formate o valor usando o <em>uiDate</em> <a href=\"javascript:void(0);\" open-help=\"filter\" editor-mode=\"page\">filter</a>."
+
+msgid "To display (and not update) a date retrieved from the BDM API (or another API), you can either use this <em>Date picker</em> widget with <em>Read-only</em> property set to \"yes\" or use a <em>Text</em>, <em>Title</em> or a <em>Table</em> widget and format the value using the provided <em>uiDate</em> <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filter</a>."
+msgstr "Para exibir (e não atualizar) uma data recuperada da API do BDM (ou de outra API), você pode usar este widget <em>Seletor de data</em> com a propriedade <em>Somente leitura</em> definida como \" sim \"ou use um <em>texto</em>, <em>título</em> ou um widget <em>tabela</em> e formate o valor usando o <em>uiDate</em> <a href = \"javascript: void (0);\" open-help = \"filters\" editor-mode=\"page\"> filter</a>."
+
+msgid "To display the data, define the header properties with a comma-separated list of column headings,\n"
+"            bind the content to an array of JavaScript objects."
+msgstr "Para exibir os dados, definir as propriedades do cabeçalho com uma lista separada por vírgulas de cabeçalhos de colunas,\n"
+"            vincular o conteúdo a uma matriz de objetos JavaScript."
+
+msgid "To embed a pop-in into another pop-in at runtime, drop the first modal container at the bottom, drop the second modal container below the first one, and drop the button that opens the second pop-in within the first modal container."
+msgstr "Para incorporar um pop-in em outro pop-in no tempo de execução, solte o primeiro container modal no final, solte o segundo container modal abaixo do primeiro, e solte o botão que abre o segundo pop-in dentro do primeiro container modal."
+
+msgid "To enable form validation across multiple tabs, set the <b>Lazy loading</b> property to <code>no</code> for each tab."
+msgstr "Para ativar a validação de formulários em várias abas, defina a propriedade <b>do Lazy carregamento</b> para <code>no</code> para cada guia."
+
+msgid "To get the data from a selected row, bind selected row to a variable."
+msgstr "Para obter os dados de uma linha selecionada, vincular a linha selecionada a uma variável."
+
+msgid "To open a modal window it is enough to input a modal ID in the properties, to create a button,\n"
+"            select <em>Open modal</em> in the Action property, and fill in the right modal ID. The button should be\n"
+"            located outside of the modal container."
+msgstr "Para abrir uma janela modal, é suficiente para inserir um ID modal nas propriedades, para criar um botão,\n"
+"            selecione <em>Abrir modal</em> na propriedade de Ação, e preencher o ID modal correto. O botão deve ser\n"
+"            localizado fora do recipiente modal."
+
+msgid "To pre-fill with a template, bind an HTML formatted variable"
+msgstr "Para pré-preencher com um modelo, vincule uma variável HTML formatada"
+
+msgid "To select a date and a time (e.g., to schedule a meeting), use the <em>Date time picker</em> widget instead."
+msgstr "Para selecionar uma data e uma hora (por exemplo, para agendar uma reunião), use o <em>selecionador de datas</em> widget."
+
+msgid "To select only a date (e.g., a date of birth), use the <em>Date picker</em> widget instead."
+msgstr "Para selecionar apenas uma data (por exemplo, uma data de nascimento), use o<em> seletor de datas</em> widget."
+
+msgid "Today"
+msgstr "Hoje"
+
+msgid "Today & Now"
+msgstr "Hoje & Agora"
+
+msgid "Today button label"
+msgstr "Rótulo do botão hoje"
+
+msgid "Top frame (_top)"
+msgstr "Quadro superior (_top)"
+
+msgid "Trigger for an action in a page or form"
+msgstr "Dispara uma ação em um formulário ou página"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "URL parameters"
+msgstr "Parâmetro de URL"
+
+msgid "URL to call"
+msgstr "URL para chamar"
+
+msgid "URL used to perform the HTTP request when this button is clicked."
+msgstr "URL usada para executar a solicitação HTTP quando este botão é clicado."
+
+msgid "Unique ID of this modal"
+msgstr "ID único deste modal"
+
+msgid "Unique checkbox for an option. The user checks it or not"
+msgstr "Caixa de seleção única para uma opção. O usuário seleciona ou não"
+
+msgid "Usage"
+msgstr "Uso"
+
+msgid "Use $collection to act on the collection of a repeated content"
+msgstr "Use $collection para agir na coleção de conteúdos repetidos"
+
+msgid "Use $item to remove the current item in a repeated collection"
+msgstr "Use $item para remover o item atual de uma coleção repetida"
+
+msgid "Use <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">Filters</a> to format the data (e.g. <span ng-non-bindable>columnKey|uiDate</span>)"
+msgstr "Use <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">Filtros</a> para formatar os dados (ex. <span ng-non-bindable>colunas/columnKey|Data</span>)"
+
+msgid "Use <span ng-non-bindable>{{dataVariable}}</span> to access data, and <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filters</a> to format it (e.g. <span ng-non-bindable>{{dateVariable|uiDate}}</span>)"
+msgstr "Use <span ng-non-bindable>{{dataVariable}}</span> para acessar os dados e <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filtros</a> para formatá-lo (ex.: <span ng-non-bindable>{{dateVariable|uiDate}}</span>)"
+
+msgid "Use basic html tags (if allowed), <span ng-non-bindable>{{dataVariable}}</span> to access data, and <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filters</a> to format it (e.g. <span ng-non-bindable>{{dateVariable|uiDate}}</span>)"
+msgstr "Use tags html básicas (se permitidas), <span ng-non-bindable>{{dataVariable}}</span> para acessar os dados, e <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filtros</a> para formatar (ex.: <span ng-non-bindable>{{dateVariable|uiDate}}</span>)"
+
+msgid "Use the characters: H (hour), h (hour in AM/PM), m (minutes) and optionally s (seconds), a (AM/PM)"
+msgstr "Use os caracteres: H (hora), h (hora em AM/PM), m (minutos) e opcionalmente (segundos), um (AM/PM)"
+
+msgid "Use the characters: M (month), d (day), y (year)"
+msgstr "Use os caracteres: M (mês), d (dia), y (ano)"
+
+msgid "Use this container to create a pop-in window which can be opened or closed with a button, and displayed over the page, form, or layout content."
+msgstr "Use este contêiner para criar uma janela pop-in que pode ser aberta ou fechada com um botão, e exibida na página, formulário ou conteúdo de layout."
+
+msgid "Use this widget to select a date (e.g., a date of birth)."
+msgstr "Utilize este widget para selecionar uma data (por exemplo, uma data de nascimento)."
+
+msgid "Use this widget to select a date and a time (e.g., to schedule a meeting)."
+msgstr "Use este widget para selecionar uma data e uma hora (por exemplo, para agendar uma reunião)."
+
+msgid "Use this widget to:"
+msgstr "Use este widget para:"
+
+msgid "Using the Vertical Display property, it is possible to display tabs vertically or horizontally."
+msgstr "Usando a propriedade Display Vertical, é possível exibir guias verticalmente ou horizontalmente."
+
+msgid "Value"
+msgstr "Valor"
+
+msgid "Value Format"
+msgstr "Formato de valor"
+
+msgid "Value max length"
+msgstr "Comprimento máximo do valor"
+
+msgid "Value min length"
+msgstr "Comprimento mínimo do valor"
+
+msgid "Value must be unique"
+msgstr "O valor deve ser único"
+
+msgid "Value to add"
+msgstr "Valor a ser adicionado"
+
+msgid "Variable"
+msgstr "Variável"
+
+msgid "Variable content formatted in HTML"
+msgstr "Conteúdo variável formatado em HTML"
+
+msgid "Variable for frontend paging and ordering or Bonita REST API URL for backend paging and ordering"
+msgstr "Variável para página de frontend e ordenação ou URL da API Bonita REST para página de backend e ordenar"
+
+msgid "Variable of type array"
+msgstr "Variável do tipo matriz"
+
+msgid "Vertical display"
+msgstr "Exibição vertical"
+
+msgid "When 'Content' is a list of objects, specifies the attributes to display in the table columns. These keys must not be a number, or start with a number"
+msgstr "Quando 'Conteúdo' é uma lista de objetos, especifica os atributos a exibir nas colunas da tabela. Essas chaves não devem ser um número, ou começar com números"
+
+msgid "When sent in the JSON body of a request, it is serialized into an ISO 8601 formatted String variable with the time set to midnight UTC (e.g., 2016-12-31T00:00:00.000Z)."
+msgstr "Quando enviada no corpo de uma solicitação JSON, ele é serializado em uma variável de sequência de caracteres ISO 8601 formatado com o tempo definido para meia-noite UTC (por exemplo, 2016-12-31T00:00:00.000Z)."
+
+msgid "When the table is displayed, each time the user updates the filter, the table display is\n"
+"            updated accordingly. The filter is applied to the table rows that are currently displayed."
+msgstr "Quando a tabela é exibida, cada vez que o usuário atualiza o filtro, a exibição da tabela é\n"
+"            atualizada em conformidade. O filtro é aplicado às linhas da tabela que estão sendo exibidas atualmente."
+
+msgid "Whenever this form is reloaded, either by hitting F5 or browsing away and back again, the entry will be reloaded automatically from LocalStorage."
+msgstr "Sempre que este formulário for recarregado, seja selecionando o F5 ou navegando para longe e retornando novamente, a entrada será recarregada automaticamente do LocalStorage."
+
+msgid "Will be retrieved from the URL if not set ('app' parameter). You can pass it in the query string of the preview URL for tests."
+msgstr "Será recuperado da URL se não definido o (parâmetro 'app'). Você pode passá-lo na string de consulta da URL de pré-visualização para testes."
+
+msgid "With this widget, you can display data from an array in tabular presentation."
+msgstr "Com este widget, você pode exibir dados de uma matriz na apresentação tabular."
+
+msgid "Yes"
+msgstr "Sim"
+
+msgid "You can provide a filter for users to update the displayed table to show only the rows that match\n"
+"            the filter. To do this :"
+msgstr "Você pode fornecer um filtro para que os usuários atualizem a tabela exibida para mostrar apenas as linhas que correspondem\n"
+"            ao filtro. Para fazer isso:"
+
+msgid "You can use the <code>API request parameters</code> property to pass additional parameters to the\n"
+"            request. Supported parameters are described in the REST API Overview documentation page and in the REST API documentation for the relevant resources."
+msgstr "Você pode usar os <code>parâmetros de solicitação de API</code> propriedade para passar parâmetros adicionais para a solicitação\n"
+"            . Os parâmetros suportados são descritos na página da documentação da documentação da API REST e na documentação da API REST para os recursos relevantes."
+
+msgid "You do not need to specify paging parameters (such as ?p=0&c=10), because the data table handles paging automatically when you use a Bonita API data source."
+msgstr "Você não precisa especificar parâmetros de paginação (como ? =0&c=10), porque a tabela de dados lida automaticamente com a paginação quando você usa uma fonte de dados da Bonita."
+
+msgid "You need to use this following css selector in your theme.css file:"
+msgstr "Você precisa usar este seletor css no seu arquivo theme.css:"
+
+msgid "Zebra-striping"
+msgstr "Zebra-striping"
+
+msgid "_self"
+msgstr "_auto"
+
+msgid "center"
+msgstr "centro"
+
+msgid "danger"
+msgstr "perigo"
+
+msgid "default"
+msgstr "padrão"
+
+msgid "email"
+msgstr "email"
+
+msgid "formInput"
+msgstr "formulárioEntrada"
+
+msgid "h:mm:ss a"
+msgstr "h:mm:ss a"
+
+msgid "http://"
+msgstr "http://"
+
+msgid "info"
+msgstr "informação"
+
+msgid "large"
+msgstr "grande"
+
+msgid "left"
+msgstr "esquerda"
+
+msgid "link"
+msgstr "link"
+
+msgid "medium"
+msgstr "médio"
+
+msgid "none"
+msgstr "nenhum"
+
+msgid "number"
+msgstr "número"
+
+msgid "password"
+msgstr "senha"
+
+msgid "pills"
+msgstr "pills"
+
+msgid "primary"
+msgstr "primário"
+
+msgid "right"
+msgstr "direita"
+
+msgid "small"
+msgstr "pequeno"
+
+msgid "success"
+msgstr "sucesso"
+
+msgid "tabs"
+msgstr "abas"
+
+msgid "text"
+msgstr "texto"
+
+msgid "top"
+msgstr "superior"
+
+msgid "url"
+msgstr "url"
+
+msgid "warning"
+msgstr "advertência"
+
+msgid "whitespace"
+msgstr "espaço em branco"
+
+msgid "€"
+msgstr "€"
+

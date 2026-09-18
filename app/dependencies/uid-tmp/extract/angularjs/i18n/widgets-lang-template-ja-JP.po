@@ -1,0 +1,1577 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: bonita\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: bonita\n"
+"X-Crowdin-Project-ID: 13316\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /support-1.0.x/artifact-builder/widgets-lang-template.pot\n"
+"X-Crowdin-File-ID: 72344\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"PO-Revision-Date: 2024-11-07 10:06\n"
+
+msgid ","
+msgstr ","
+
+msgid "."
+msgstr "."
+
+msgid "../API/"
+msgstr "../API/"
+
+msgid "../API/formFileUpload"
+msgstr "../API/formFileUpload"
+
+msgid "<a href=\"https://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">ISO 8601</a> String variables (with or without time information)"
+msgstr "<a href=\"https://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">ISO 8601</a>で書式化された文字列変数 (時間情報の有無にかかわらず)"
+
+msgid "<b><em>Now</em> button</b> sets the selected date and time to the current date and time for the user.\n"
+"            For the time, it is rounded up or down to the closest 5 min value."
+msgstr "<b><em>今時点</em> のボタン</b> は、ユーザーの現在の日付と時刻の選択した日付と時刻を設定します。\n"
+"          時刻は、上下 5 分の最も近い値に丸められます。"
+
+msgid "<b><em>Today</em> button</b> sets the selected date to the current date for the user.\n"
+"            It doesn't change the selected time, except when the time is not set.\n"
+"            In that case, it's rounded up or down to the closest 5 min value."
+msgstr "<b><em>今日</em> のボタン</b> は、ユーザーの選択した日付を現在の日付に設定します。\n"
+"            時刻が設定されていない場合を除いて、選択された時刻を変更しません。\n"
+"           その場合は、上下 5 分の最も近い値に丸められます。"
+
+msgid "<b>With <em>Handle time zone</em> set to \"no\"</b>: User time zone is ignored and the value of the widget does not contain any time zone information (e.g., yyyy-MM-ddTHH:mm:ss)."
+msgstr "<b><em>タイム ゾーンを処理</em>を「いいえ」に設定した場合</b>: ユーザーのタイム ゾーンは無視され、ウィジェットの値に任意のタイム ゾーン情報は含まれません（たとえば、yyyy-MM-ddTHH:mm:ss）。"
+
+msgid "<b>With <em>Handle time zone</em> set to \"yes\"</b>: the <em>Value</em> of the widget is in UTC (e.g., yyyy-MM-ddTHH:mm:ssZ)."
+msgstr "<b><em>タイム ゾーンを処理</em>を「はい」に設定した場合</b>: ウィジェットの <em>値</em> は、UTCになります （たとえば、yyyy-MM-ddTHH:mm:ssZ）。"
+
+msgid "<code>Bordered</code><em>(Default: no)</em>: Display cells with border."
+msgstr "<code>Bordered</code><em>(Default: no)</em>: 枠付きのセルを表示します。\n"
+
+msgid "<code>Bordered</code><em>(Defaults: no)</em>: Display cells with border."
+msgstr "<code>境界線</code><em>(デフォルト: no)</em>: 境界線のあるセルを表示します。"
+
+msgid "<code>Condensed</code><em>(Default: no)</em>: Display cells without spacing."
+msgstr "<code>Condensed</code><em>(Default: no)</em>:セルを間隔なしで表示します。"
+
+msgid "<code>Condensed</code><em>(Defaults: no)</em>: Display cells without spacing."
+msgstr "<code>は</code><em>(Default: no)</em>に凝縮: 間隔のないセルを表示します。"
+
+msgid "<code>Selected</code> <em>(Default: first tab is selected)</em>: Whether the tab is selected or not"
+msgstr "<code>選択</code> <em>(デフォルト: 最初のタブが選択されています)</em>: タブの選択はされていますか"
+
+msgid "<code>Title</code>: can be calculated dynamically to display and <b>render html</b>."
+msgstr "<code>タイトル</code>: 表示するために動的に計算し、 <b>HTML を</b> レンダリングすることができます。"
+
+msgid "<code>Zebra-striping</code><em>(Default: yes)</em>: Apply a Zebra style\n"
+"                (this style set a different background color on even and odd lines)."
+msgstr "<code>Zebra-striping</code><em>(デフォルト: はい)</em>: Zebra スタイルを適用\n"
+"                (このスタイルは偶数と奇数行に異なる背景色を設定します)"
+
+msgid "<code>Zebra-striping</code><em>(Defaults: yes)</em>: Apply a Zebra style (this style set a different background color on even and odd lines)."
+msgstr "<code>ストライプは</code><em>(デフォルト: はい)</em>: ゼブラ スタイルを適用します (このスタイルは偶数と奇数の行に異なる背景色を設定します)。"
+
+msgid "<code>cssClasses</code> <em>(Default: none)</em>: Add css classes on tab. This css class will\n"
+"            be attached to <strong>tab-heading</strong> html element."
+msgstr "<code>cssClasses</code> <em>(デフォルト: なし)</em>: タブに css クラスを追加します。 この css クラスは\n"
+"                 <strong>tab-heading</strong> html 要素に添付されます。"
+
+msgid "<code>disabled</code> <em>(Default: no)</em>: Whether tab is clickable and can be activated."
+msgstr "<code>disabled</code> <em>(Default: no)</em>: タブをクリックしてアクティブにするか否か。"
+
+msgid "<code>hidden</code> <em>(Default: no)</em>: Whether tab is hidden or not."
+msgstr "<code>hidden</code> <em>(デフォルト: no)</em>: タブを非表示にするか否か。"
+
+msgid "<em>Add to collection</em> or <em>Remove from collection</em> actions can be used to prepare the data before sending it to the server (e.g. if you have a process/task contract with an input that is multiple). No request will be sent to the server. The button will just update the <em>Collection</em> data which must be a variable of type array (<code>[]</code> in JSON)."
+msgstr "<em>コレクションに追加</em> または <em>コレクションから削除</em> のアクションは、サーバーに送信する前にデータを準備するために使用できます （たとえば、プロセス/タスクが複数の入力コントラクトを持っている場合）。リクエストはサーバーへ送信されません。このボタンは、配列型 (JSON の <code>[]</code>の部分) の変数である <em>コレクション</em> データだけを更新します。"
+
+msgid "<em>DATE (NOT RECOMMENDED)</em> (based on <code>java.util.Date</code>)"
+msgstr "<em>日付 (非推奨)</em>（<code>java.util.Date</code> に基づく）"
+
+msgid "<em>DATE ONLY</em> (based on <code>java.time.LocalDate</code>)"
+msgstr "<em>日付のみ</em>（<code>java.time.LocalDate</code> に基づく）"
+
+msgid "<em>DATE-TIME (NO TIME ZONE)</em> (based on <code>java.time.LocalDateTime</code>): set the property <em>Handle time zone</em> to \"No\""
+msgstr "<em>日時 (タイムゾーンなし)</em>（<code>java.time.LocalDateTime</code> に基づく）:  プロパティの<em>タイム ゾーンを処理</em> を「いいえ」に設定"
+
+msgid "<em>DATE-TIME (TIME ZONE)</em> (based on <code>java.time.OffsetDateTime</code>): set the property <em>Handle time zone</em> to \"Yes\""
+msgstr "<em>日時 (タイムゾーンあり)</em>（<code>java.time.OffsetDateTime</code> に基づく）: プロパティの<em>タイム ゾーンを処理</em> を「はい」に設定"
+
+msgid "<em>Failed response value</em>: the variable will be set if the request is unsuccessful (code 4XX)"
+msgstr "<em>失敗時のレスポンス値</em>： この変数はリクエストが失敗した場合 (コード 4XX) に設定されます"
+
+msgid "<em>Successful response value</em>: the variable will be set if the request is successful (code 2XX)"
+msgstr "<em>成功時のレスポンス値</em>： この変数はリクエストが成功した場合 (コード 2XX) に設定されます"
+
+msgid "<i>context.myDocument_ref</i> or <i>myVar.myDocument_ref</i>"
+msgstr "<i>context.myDocument_ref</i> または <i>myVar.myDocument_ref</i>"
+
+msgid "A <a href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</a> formatted String variable yyyy-MM-ddTHH:mm:ss(Z)"
+msgstr " <a href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</a> で書式化された文字列変数 yyyy-MM-ddTHH:mm:ss(Z)"
+
+msgid "A Bonita REST API URL"
+msgstr "Bonita REST API URL"
+
+msgid "A JSON object"
+msgstr "JSON オブジェクト"
+
+msgid "A TabsContainer is a container that has multiple panes, but shows only one pane at a time."
+msgstr "TabsContainer は複数のペインを持つコンテナですが、一度に1つのペインのみを表示します。"
+
+msgid "A modal container doesn't work when it is embedded in another container."
+msgstr "モーダルコンテナは、別のコンテナに埋め込まれている時には動作しません。"
+
+msgid "A multiple set chart shows one or more set of data"
+msgstr "複数のセットグラフには、1 つまたは複数のデータセットが表示されます"
+
+msgid "A single entry will be created in the LocalStorage identified by the form URL."
+msgstr "URL によって識別された LocalStorage に単一のエントリが作成されます。"
+
+msgid "A variable that contains a JSON array (single set) or JSON array of arrays (multiple sets) where each array is a set. The data can be obtained by a BDM query, API call (default or extension), or JavaScript that retrieves and formats external data"
+msgstr "各配列がセットされている配列のJSON配列(単一セット)またはJSON配列(複数セット)を含む変数。 データは BDM クエリ、API call (デフォルトまたは拡張)、または JavaScript によって取得され、外部データを取得してフォーマットできます。"
+
+msgid "API request parameters"
+msgstr "APIリクエストパラメータ"
+
+msgid "Action"
+msgstr "アクション"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Add a modal ID, as the button will need to open the right modal container. This ID must be unique within a given page, form, or layout."
+msgstr "ボタンが右のモーダルコンテナを開く必要があるので、モーダルIDを追加します。 このIDは、特定のページ、フォーム、またはレイアウト内で一意である必要があります。"
+
+msgid "Add a widget to the page where the user will specify the filter. This can be an Input widget\n"
+"                for free-form text, or a Select widget to choose from a preset list."
+msgstr "ユーザーがフィルターを指定するページにウィジェットを追加します。 これは自由形式テキストの入力ウィジェット\n"
+"                、またはプリセットリストから選んだウィジェットを選択します。"
+
+msgid "Add borders all around the table and between all the columns."
+msgstr "テーブル全体と全てのカラムの間に枠線を追加します。"
+
+msgid "Add the following class in style.css asset."
+msgstr "style.css アセットに次のクラスを追加します。"
+
+msgid "Add to collection"
+msgstr "コレクションに追加"
+
+msgid "Add/Remove an Object to/from a collection"
+msgstr "コレクションへのオブジェクトの追加/削除"
+
+msgid "Additional request parameters added to the query string"
+msgstr "クエリ文字列に追加された追加のリクエスト パラメータ"
+
+msgid "Additional request parameters added to the query string as json or javascript object, by using the related variable type"
+msgstr "関連する変数タイプを使用して、クエリ文字列に json または javascript オブジェクトとして追加された追加リクエストパラメータ"
+
+msgid "Advanced options"
+msgstr "詳細オプション"
+
+msgid "Alignment"
+msgstr "配置"
+
+msgid "Alignment toolbar"
+msgstr "アライメント（配置）ツールバー"
+
+msgid "Alternate text"
+msgstr "代替テキスト"
+
+msgid "Alternating gray and transparent backgrounds"
+msgstr "グレーと透明の交互な背景"
+
+msgid "Alternatively, you can set the Data source to Variable and use a variable definition to point to\n"
+"            the table content."
+msgstr "あるいはデータソースを変数に設定し、変数定義を使用してテーブルコンテンツの\n"
+"            を指すようにすることもできます。"
+
+msgid "Amount"
+msgstr "金額"
+
+msgid "An extended table widget that provides column sorting, filtering, and paging in addition to the\n"
+"            standard table widget capabilities."
+msgstr "\n"
+"            標準テーブルウィジェット機能に加えて列のソート、フィルタリング、およびページングを提供する拡張テーブルウィジェット。"
+
+msgid "Animation"
+msgstr "アニメーション"
+
+msgid "Another possibility would be adding different containers inside the modal and specify any of the\n"
+"            following classes:"
+msgstr "別の可能性は、モーダル内に異なるコンテナを追加し、以下のクラス\n"
+"            のいずれかを指定する。:"
+
+msgid "Any boolean variable: <i>myData</i> or <i>myData.attribute</i>"
+msgstr "任意のブール変数： <i>myData</i> または <i>myData.attribute</i>"
+
+msgid "Any button can close a modal container that contains it when a success happens after any button action."
+msgstr "任意のボタンはボタンアクション後、成功した時にそれを含むモーダルコンテナを閉じることができます。"
+
+msgid "Any variable: <i>myData</i> or <i>myData.attribute</i>"
+msgstr "任意の変数： <i>myData</i> または <i>myData.attribute</i>"
+
+msgid "Any variable: myData or myData.attribute."
+msgstr "任意の変数: myData または myData.attribute."
+
+msgid "Application URL token"
+msgstr "アプリケーション URL トークン"
+
+msgid "Application page"
+msgstr "アプリケーション ページ"
+
+msgid "Array used to populate the table. Can be a list of objects. Use 'Column keys' to refine content"
+msgstr "テーブルを埋め込むために使用される配列（Array）。オブジェクトの配列（リスト）を指定することもできます。この場合、各列に表示する項目名のリストを「列を示すキー」に指定します。"
+
+msgid "As used in the URL after the application token"
+msgstr "アプリケーション トークンの後の URL に使用されます"
+
+msgid "Asset"
+msgstr "アセット"
+
+msgid "Asset Name"
+msgstr "アセット名"
+
+msgid "Assign before Submit"
+msgstr "サブミット前の割当て"
+
+msgid "Automatically assign the Task to the current user before the execution"
+msgstr "実行前にタスクを現在のユーザーに自動的に割り当てます"
+
+msgid "Available values"
+msgstr "使用可能な値"
+
+msgid "Available values: <i>bold, italics, underline, strikeThrough, pre, quote</i>"
+msgstr "使用可能な値： <i>bold, italics, underline, strikeThrough, pre, quote</i>"
+
+msgid "Available values: <i>h1, h2, h3, h4, h5, h6, p, ul, ol</i>"
+msgstr "利用可能な値: <i>h1, h2, h3, h4, h5, h6, p, ul, ol</i>"
+
+msgid "Available values: <i>html, insertImage, insertLink, insertVideo, wordcount, charcount, undo, redo, clear</i>"
+msgstr "利用可能な値: <i>html, insertImage, insertLink, insertVideo, wordcount, charcount, undo, redo, clear</i>"
+
+msgid "Available values: <i>justifyLeft, justifyCenter, justifyRight, indent, outdent</i>"
+msgstr "使用可能な値： <i>左揃え, 中央揃え, 右揃え, インデント, インデント解除</i>"
+
+msgid "BDM APIs are not yet sortable. For other APIs, test in the preview or refer to the BonitaBPM documentation 'REST API' pages"
+msgstr "BDM API はまだソート可能ではありません。その他の API に対しては、プレビューでテストするか、または Bonita BPM ドキュメントの 'REST API' ページを参照してください。"
+
+msgid "Bar"
+msgstr "バー"
+
+msgid "Bind the <em>formInput</em> variable of your form."
+msgstr "フォームの <em>formInput</em> 変数をバインドします。"
+
+msgid "Bind the filter variable to the Data table widget Filter property."
+msgstr "フィルタ変数をデータテーブル ウィジェットのFilterプロパティにバインドします。"
+
+msgid "Bind the filter variable to the widget."
+msgstr "フィルタ変数をウィジェットにバインドします。"
+
+msgid "Bind to a Variable to filter the table 'Content'"
+msgstr "テーブル「Content」をフィルタリングする変数にバインドします。"
+
+msgid "Bonita API"
+msgstr "Bonita API"
+
+msgid "Bonita BPM"
+msgstr "Bonita BPM"
+
+msgid "Bordered"
+msgstr "境界線"
+
+msgid "Calendar for selecting a date (only)"
+msgstr "日付 (のみ) を選択するためのカレンダー"
+
+msgid "Calendar for selecting a date and time"
+msgstr "日付と時刻を選択するためのカレンダー"
+
+msgid "Can be a list of objects. Use 'Displayed key' to refine options and 'Returned key' to refine selections"
+msgstr "オブジェクトのリストを使用できます。表示したい選択オプション項目を「表示するキー」に指定し、選択された行の中の取得したい項目を「返されるキー」に指定します。"
+
+msgid "Can be a list of objects. Use 'Displayed key' to refine suggestions and 'Returned key' to refine selection"
+msgstr "オブジェクトのリストを使用できます。表示したい選択オプション項目を「表示するキー」に指定し、選択された行の中の取得したい項目を「返されるキー」に指定します。"
+
+msgid "Can be any string, hence enabling any symbol (€, $, …) or any abbreviation (EUR, USD, …). Numeric characters will be removed on display"
+msgstr "任意の文字列を使用することができます。したがって、シンボル(€、$、 …)または任意の省略形(EUR、USD、 …)を有効にします。 ディスプレイ上で数字が削除されます"
+
+msgid "Can be translated using the asset localization.json"
+msgstr "アセットlocalization.jsonを使用して翻訳できます"
+
+msgid "Can be used to fulfill a contract"
+msgstr "後続のタスクでコントラクトを埋めるために使用されます。"
+
+msgid "Caption"
+msgstr "短い説明文"
+
+msgid "Case Id"
+msgstr "案件ID"
+
+msgid "Case overview"
+msgstr "案件概況"
+
+msgid "Choose process document if the file is used by a process"
+msgstr "プロセスでファイルを使用する場合は、プロセス ドキュメントを選択します。"
+
+msgid "Choose true if you want display this modal with an animation, false otherwise"
+msgstr "このモーダルをアニメーションで表示する場合はtrueを選択し、それ以外の場合はfalseを選択します。"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Close Modal"
+msgstr "モーダルを閉じる"
+
+msgid "Close modal"
+msgstr "モーダルを閉じる"
+
+msgid "Close modal on success"
+msgstr "成功時にモーダルを閉じる"
+
+msgid "Close modal when the action is successful"
+msgstr "アクションが成功したらモーダルを閉じる"
+
+msgid "Collection"
+msgstr "コレクション"
+
+msgid "Collections"
+msgstr "コレクション"
+
+msgid "Colors"
+msgstr "色"
+
+msgid "Column keys"
+msgstr "列を示すキー"
+
+msgid "Columns key"
+msgstr "カラム キー"
+
+msgid "Comma-separated list"
+msgstr "カンマ区切りのリスト"
+
+msgid "Comma-separated list or bound an array data"
+msgstr "コンマで区切られたリストまたはバインド配列データ"
+
+msgid "Comma-separated list or variable"
+msgstr "カンマで区切られたリストまたは変数"
+
+msgid "Condensed"
+msgstr "コンデンス"
+
+msgid "Condensed table with half padding"
+msgstr "ハーフパディング付きの凝縮テーブル"
+
+msgid "Container used for a form. Eases validation"
+msgstr "フォームに使用するコンテナ。 検証は削除されます。"
+
+msgid "Content"
+msgstr "コンテンツ"
+
+msgid "Control"
+msgstr "コントロール"
+
+msgid "Create a filter variable in the variable panel. If you are using an Input widget, this\n"
+"                variable has no value."
+msgstr "変数パネルでフィルター変数を作成します。 入力ウィジェットを使用している場合、この\n"
+"                 変数には値がありません。"
+
+msgid "Current frame (_self)"
+msgstr "現在のフレーム (_self)"
+
+msgid "Custom URL"
+msgstr "カスタム URL"
+
+msgid "Custom style"
+msgstr "カスタムスタイル"
+
+msgid "Customize the default look and feel as follows:"
+msgstr "デフォルトのルック＆フィールを以下のようにカスタマイズします。"
+
+msgid "DELETE"
+msgstr "削除"
+
+msgid "Data"
+msgstr "データ"
+
+msgid "Data saved on click. You might bind it to the variable you use to initialize your form, e.g. 'formInput'"
+msgstr "クリック時にデータを保存しました。フォームの初期化に使用する変数にバインドすることができます。例：'formInput'"
+
+msgid "Data sent on click"
+msgstr "クリックで送られるデータ"
+
+msgid "Data source"
+msgstr "データソース"
+
+msgid "Data-Table"
+msgstr "データテーブル"
+
+msgid "Date"
+msgstr "日付"
+
+msgid "Date & time display"
+msgstr "日時の表示"
+
+msgid "Date Placeholder"
+msgstr "日付のプレース ホルダー"
+
+msgid "Date and time"
+msgstr "日付と時刻"
+
+msgid "Date and time can reflect the user time zone (e.g., a meeting day and time) or be absolute, identical everywhere (e.g., opening hours of a store somewhere).\n"
+"            This is controlled by the property <em>Handle time zone</em>."
+msgstr "日時は、ユーザーのタイムゾーンを反映 （たとえば、会議の日時）したり、どこの場所でもタイムゾーンに関係なく同一である （たとえば、どこかの店の開店時刻）のいずれも取り扱えます。\n"
+"            これは、<em>タイムゾーン処理</em> プロパティによって制御されます。"
+
+msgid "Date display"
+msgstr "日付の表示"
+
+msgid "Date objects"
+msgstr "Date オブジェクト"
+
+msgid "Debounce"
+msgstr "デバンス"
+
+msgid "Decimal separator"
+msgstr "小数点記号"
+
+msgid "Default label"
+msgstr "デフォルト ラベル"
+
+msgid "Default name"
+msgstr "デフォルト名"
+
+msgid "Defines character(s) separation between currency sign and value"
+msgstr "通貨記号と値の区別を定義します。"
+
+msgid "Defines endpoint URL where the file will be uploaded"
+msgstr "ファイルがアップロードされる場所を示すエンドポイントURLを定義します。"
+
+msgid "Describing the content of a data table. To be accessible the description must be relevant (clear and concise)."
+msgstr "データテーブルの内容を記述します。アクセスするには、説明を関連付ける必要があります (明確かつ簡潔)。"
+
+msgid "Determines target application. It is recommended not to hard code it."
+msgstr "ターゲット アプリケーションを指定します。ハード コーディングしないことを推奨します。"
+
+msgid "Determines the application theme that will be used by the target page. It is recommended not to hard code it."
+msgstr "ターゲット ページで使用するアプリケーションのテーマを指定します。ハード コーディングしないことを推奨します。"
+
+msgid "Direct link to an external file"
+msgstr "外部ファイルへの直接リンク"
+
+msgid "Disabled"
+msgstr "無効"
+
+msgid "Display an image from assets or from a URL"
+msgstr "アセットまたは URL からイメージを表示します。"
+
+msgid "Display or hide the shortcut button to current day"
+msgstr "現在日にショートカット ボタンを表示または非表示"
+
+msgid "Display or hide the shortcut button to set date and time to now"
+msgstr "日付と時刻を現在の日時に設定するショートカット ボタンを表示または非表示"
+
+msgid "Display the document in the page or a form"
+msgstr "ページまたはフォームにドキュメントを表示します"
+
+msgid "Display type"
+msgstr "表示タイプ"
+
+msgid "Displayed key"
+msgstr "表示するキー"
+
+msgid "Doughnut"
+msgstr "ドーナツ グラフ"
+
+msgid "Dropdown list of available values. The user selects one value"
+msgstr "使用可能な値のドロップダウン リスト。ユーザーが 1 つの値を選択します。"
+
+msgid "Each element of this property has to match an element of the Columns key property to figure out\n"
+"            which table column can be sorted upon."
+msgstr "このプロパティの各要素は、Columns キープロパティの要素を一致させて、どのテーブル列をソートできるかを\n"
+"            特定する必要があります。"
+
+msgid "Enter a date (mm/dd/yyyy)"
+msgstr "日付（mm/dd/yyyy）を入力します"
+
+msgid "Enter a time (h:mm:ss a)"
+msgstr "時刻を入力 (h:mm:ss a)"
+
+msgid "Error on upload holder"
+msgstr "アップロード ホルダーのエラー"
+
+msgid "Example of a tab title displaying a badge:"
+msgstr "バッジを表示するタブタイトルの例:"
+
+msgid "Example of border table:"
+msgstr "外枠表のサンプル:"
+
+msgid "Expendable text input field with HTML formatting, including style, image, links... This widget is based on textAngular."
+msgstr "スタイル、画像、リンクなど、HTML 書式設定付きの拡張可能なテキスト入力フィールドです。このウィジェットは textAngular に基づいています。"
+
+msgid "External API (variable) or URL"
+msgstr "外部 API (変数) または URL"
+
+msgid "Failed response value"
+msgstr "失敗時のレスポンス値"
+
+msgid "Field where the user can enter information"
+msgstr "ユーザーが情報を入力できるフィールド"
+
+msgid "Field where the user can enter information with a currency formatting."
+msgstr "ユーザーが通貨書式で情報を入力できるフィールドです。"
+
+msgid "File chooser for uploading a document to a form"
+msgstr "フォームにドキュメントをアップロードするためのファイル選択ダイアログ"
+
+msgid "File source"
+msgstr "ファイル ソース"
+
+msgid "File unavailable"
+msgstr "ファイルが利用できません"
+
+msgid "FileName"
+msgstr "ファイル名"
+
+msgid "Filter"
+msgstr "フィルター"
+
+msgid "First"
+msgstr "最初の行"
+
+msgid "For 'Label' property only. If you choose 'no', HTML code will be escaped instead of being interpreted. If you choose ‘Yes’, this could potentially lead to HTML injections attacks. Please take into account these risks."
+msgstr "「ラベル」プロパティのみです。「いいえ」を選択するとHTML コードは解釈されずにエスケープされます。 「はい」を選択した場合、HTMLインジェクション攻撃につながる可能性があります。これらのリスクを考慮してください。"
+
+msgid "For <em>Start process</em> and <em>Submit task</em> actions the format of the data must meet the process/task contract specifications."
+msgstr "<em>プロセスを開始</em> や<em>タスクを送信</em> のアクションに対するデータの形式は、プロセス/タスクのコントラクト仕様を満たす必要があります。"
+
+msgid "For HTTP requests and Start process / Submit task actions, you can store the response of the request in a variable using the properties:"
+msgstr "HTTP リクエストやプロセスを開始 / タスクを送信に対するアクションは、プロパティを使用して、リクエストのレスポンスを変数に格納できます。"
+
+msgid "For HTTP requests, the following methods are supported:"
+msgstr "HTTP リクエストに対しては、次の方法がサポートされています："
+
+msgid "For Instance to let users save the draft of the current form:"
+msgstr "ユーザーが現在のフォームの下書きを保存できるようにするインスタンス:"
+
+msgid "For an error response, the message value is 'error' and the property <em>dataFromSuccess</em> is replaced by a property <em>dataFromError</em>"
+msgstr "エラー応答のメッセージの値は、 'error'、そして、プロパティ <em>dataFromSuccess</em> は、プロパティ <em>dataFromError</em> に置き換えられます。"
+
+msgid "For an example of JavaScript code to handle the message, you can have a look at the asset <em>layout.js</em> in the default application layout (you can retrieve it in the resources section of Bonita Portal Administrator profile)."
+msgstr "メッセージを処理する JavaScript コードの例は、デフォルトのアプリケーション レイアウト（これは、Bonita ポータル管理者プロファイルのリソース セクションで取得できます）内のアセット <em>layout.js</em> で見ることができます。"
+
+msgid "For example #FF0000, #0066FF"
+msgstr "例えば #FF0000、#0066FF"
+
+msgid "For more information, refer to the <a href=\"javascript:void(0);\" open-help=\"localization\" editor-mode=\"page\"><em>localization</em> help section</a>."
+msgstr "詳細については、<a href=\"javascript:void(0);\" open-help=\"localization\" editor-mode=\"page\"><em>ローカリゼーション</em>のヘルプ セクション</a> を参照してください。"
+
+msgid "Form validation"
+msgstr "フォームのバリデーション(検証)"
+
+msgid "Format"
+msgstr "書式"
+
+msgid "Format used to display the date"
+msgstr "日付表示に使用する形式"
+
+msgid "Format used to display the time"
+msgstr "時刻表示に使用する形式"
+
+msgid "Formatting toolbar"
+msgstr "書式設定ツールバー"
+
+msgid "Frame"
+msgstr "フレーム"
+
+msgid "GET"
+msgstr "GET"
+
+msgid "Graphical display of numerical data to ease understanding. This widget is based on angular-chart-0.8.1, which is based on Chart.js. For information see http://jtblin.github.io/angular-chart.js/ and http://www.chartjs.org/docs/. Available chart types to display a single set of data are pie, doughnut, and polar area. For multiple sets of data, available chart types are bar, line, and radar."
+msgstr "理解を容易にするための数値データのグラフィカル表示。このウィジェットはChart.js に基づいている angular-chart-0.8.1 に基づいています。\n"
+"詳しくは、http://jtblin.github.io/angular-chart を参照してください。 s/ と http://www.chartjs.org/docs/. \n"
+"単一のデータセットを表示するために使用できるグラフの種類は、円グラフ、ドーナツ、極域です。 複数のデータセットの場合、使用可能なグラフの種類は棒、線、レーダーです。"
+
+msgid "Group of widgets used to define the arrangement of the page elements. Its content can be repeated over an array"
+msgstr "ページ要素の配列定義に使用されるウィジェットのグループ。このコンテンツは配列で繰り返されます。"
+
+msgid "Group of widgets used to define the arrangement of the page elements. Its content is display like in modal."
+msgstr "ページ エレメントの配置を定義するために使用されるウィジェットのグループ。その内容はモーダルのように表示されます。"
+
+msgid "Group of widgets, inside a Tabs container"
+msgstr "タブコンテナ内のウィジェットのグループ"
+
+msgid "HTTP request"
+msgstr "HTTP リクエスト"
+
+msgid "HTTP status code"
+msgstr "HTTPステータスコード"
+
+msgid "Handle time zone"
+msgstr "タイムゾーン処理"
+
+msgid "Headers"
+msgstr "ヘッダー"
+
+msgid "Here is the format of the message posted to the parent frame in JSON (in the parent frame you will need to call <code>JSON.parse</code> as it is stringified before being sent):"
+msgstr "これは、親フレームに JSON でポストしたメッセージの形式です（送信される前に文字列化のため、親フレームで<code> JSON.parse</code> を呼び出す必要があります) ："
+
+msgid "Holds the HTTP status code of the response"
+msgstr "レスポンスの HTTP ステータスコードの保持"
+
+msgid "Holds the response content from the upload error endpoint. That value can be used to guidance purpose"
+msgstr "アップロード エラー エンドポイントからの応答内容を保持します。その値はガイダンス目的に使用することができます。"
+
+msgid "Holds the response from the upload endpoint. That value can be used to fulfill a contract"
+msgstr "アップロードのエンドポイントからのレスポンスを保持します。この値はコントラクトのコンテンツを埋めるために使用することができます。"
+
+msgid "Holds the response when the request has failed"
+msgstr "リクエストが失敗した時、そのレスポンスを保持します。"
+
+msgid "Holds the response when the request is successful"
+msgstr "リクエストが成功した時、そのレスポンスを保持します。"
+
+msgid "How to customize Zebra-striping"
+msgstr "Zebraストライプをカスタマイズする方法"
+
+msgid "How to customize border"
+msgstr "外枠をカスタマイズする方法"
+
+msgid "However, <b>the output of the widget is always a Javascript Date object</b>. So it will change the type of the variable bound to the widget <em>Value</em> to a Date object when the user selects a date. This is required in order to ensure backward compatibility for pages designed with older UI Designer versions."
+msgstr "ただし、<b>ウィジェットの出力は常に Javascript の Date オブジェクトになります</b>。したがって、ユーザーが「日付」を選択したときは、ウィジェット <em>値</em> にバインドする変数の型を Date オブジェクトに変更します。これは、古いバージョンの UI デザイナーでデザインされたページとの下位互換性を確保するために必要です。"
+
+msgid "However, such a redirection of the current window (frame) won't be performed in Bonita portal nor in an application iframe with id <em>bonitaframe</em> (as in the default application layout). This is due to the fact that Bonita Portal and the default application layout handle the successful response by themselves."
+msgstr "ただし、このような現在のウィンドウ (フレーム) へのリダイレクトは、Bonita ポータル内や <em>bonitaframe</em> id を使用したアプリケーション  iframe  (デフォルトのアプリケーション レイアウトなどの場合) 内では実行されません。これは、Bonita ポータルやデフォルトのアプリケーション  レイアウトは自身で成功なレスポンスを処理するものだからです。"
+
+msgid "Human task form"
+msgstr "ヒューマンタスク フォーム"
+
+msgid "If the page is displayed inside an iframe, a JavaScript postMessage will be sent to the <b>parent</b> frame with the status of the response and the properties values of the button widget. Bonita portal, tasklist or the default application layout handle this message differently:"
+msgstr "ページが iframe 内に表示されている場合、 JavaScript postMessage がレスポンスのステータスとボタン ウィジェットのプロパティ値と一緒に <b>親</b> フレームに送信されます。Bonita ポータル、タスク リストまたはデフォルトのアプリケーション レイアウトは、このメッセージを異なって処理します。"
+
+msgid "If you choose 'no', HTML code will be escaped instead of being interpreted in row's cells. If you choose ‘Yes’, this could potentially lead to HTML injections attacks. Please take into account these risks."
+msgstr "「いいえ」を選択すると、行のセルで解釈される代わりにHTMLコードがエスケープされます。 「はい」を選択した場合、HTMLインジェクション攻撃につながる可能性があります。これらのリスクを考慮してください。"
+
+msgid "If you choose 'no', HTML code will be escaped instead of being interpreted. If you choose 'Yes', this could potentially lead to HTML injections attacks. Please take into account these risks."
+msgstr "「いいえ」を選択すると、解釈される代わりにHTMLコードがエスケープされます。 「はい」を選択すると、HTMLインジェクション攻撃につながる可能性があります。これらのリスクを考慮してください。"
+
+msgid "If you choose 'no', HTML code will be escaped instead of being interpreted. If you choose ‘Yes’, this could potentially lead to HTML injections attacks. Please take into account these risks."
+msgstr "「いいえ」を選択すると、HTMLコードは解釈されずにエスケープされます。 「はい」を選択した場合、HTMLインジェクション攻撃につながる可能性があります。これらのリスクを考慮してください。"
+
+msgid "If you specify an expression, the result must be an array of strings"
+msgstr "式を指定した場合は、その戻り値は文字列の配列（リスト）型にする必要があります。"
+
+msgid "In 'CSS Classes' property add the <code>zebra-custom</code> class"
+msgstr "「CSSクラス」プロパティに、 <code>zebra-custom</code> クラスを追加します"
+
+msgid "In 'CSS Classes' property add the following class <code>zebra-custom</code>"
+msgstr "「CSS Classes」プロパティで、次のクラス <code>zebra-custom</code> を追加します"
+
+msgid "In 'Classes CSS' property add the following value"
+msgstr "「クラス CSS」プロパティに次の値を追加します"
+
+msgid "In a form, a page, or a layout, we recommend to drop modal containers at the bottom of the editor content."
+msgstr "フォーム、ページ、またはレイアウトでは、エディタコンテンツの下部にモーダル コンテナをドロップすることをお勧めします。"
+
+msgid "In addition to the <em>Successful response value</em> variable, for the <em>POST</em>,<em>PUT</em>,<em>DELETE</em>, <em>Start process</em> and <em>Submit task</em> requests you also have the possibility to define a <em>Target URL on success</em> that will be used to set the current window (frame) location when the request is successful."
+msgstr "<em>成功時のレスポンス値</em> の変数に加え、 <em>POST</em>、<em>PUT</em>、<em>削除</em>、<em>プロセスを開始</em> 、<em>タスクを送信</em> のリクエストに対し、そのリクエストが成功したときに、現在のウィンドウ (フレーム) の場所に表示する<em>成功時のターゲットURL</em> を定義する可能性もあります。"
+
+msgid "In some case, you want override your theme to display <b>one specific table</b>, to do this:"
+msgstr "場合によっては、テーマをオーバーライドして <b>1 つの特定のテーブル</b> を表示する必要があります。これを行うには:"
+
+msgid "In some case, you want to override your theme to display <b>one</b> data-table with specific line color, to do this:"
+msgstr "いくつかのケースではテーマをオーバーライドして、特定の行の色を持つ <b>一つの</b> データテーブルを表示したい場合があります。"
+
+msgid "In tab title properties add the following value"
+msgstr "タブのタイトルプロパティに次の値を追加します"
+
+msgid "In the context of a form container, use $form.$invalid as a Boolean to check form validity in a widget property"
+msgstr "フォーム コンテナのコンテンツの中で $form.$invalid をウィジェット プロパティ内のブーリアン変数として使用し、フォームの妥当性をチェックします。"
+
+msgid "Includes the localized version of the Technical date format property, to guide the user"
+msgstr "ユーザーをガイドするため、ローカライズされた日付書式プロパティが含まれています。"
+
+msgid "Includes the localized version of the Technical time format property, to guide the user"
+msgstr "ユーザーをガイドするため、ローカライズされた時刻書式プロパティが含まれています。"
+
+msgid "Inline"
+msgstr "横に並べる"
+
+msgid "Input field with content completion from a given list"
+msgstr "指定したリストでオートコンプリートする入力フィールド"
+
+msgid "Input: <a href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</a> formatted String (yyyy-MM-dd), Date object or Long number <br>Output: Date object (see widget help)"
+msgstr "入力: <a href='https://en.wikipedia.org/wiki/ISO_8601' target='_blank'>ISO 8601</a> で書式化された文字列 (yyyy-MM-dd)で、Date オブジェクトまたは Long の長整数<br> 出力: \n"
+" Date オブジェクト （ウィジェットのヘルプを参照してください）"
+
+msgid "Integer value which contains the debounce model update value in milliseconds. A value of 0 triggers an immediate update. Debounce value cannot be changed once initialized."
+msgstr "デバウンスモデルの更新値をミリ秒単位で含む整数値。 値 0 は即時更新をトリガーします。初期化後、デバウンス値は変更できません。"
+
+msgid "Interpret HTML"
+msgstr "HTML を解釈"
+
+msgid "Interpret HTML in label"
+msgstr "ラベルにHTMLを解釈する"
+
+msgid "Interpret HTML in tab heading"
+msgstr "タブの見出しでHTMLを解釈する"
+
+msgid "It is possible to deactivate the animation when the modal appears. The main usage of this option would be to create a wizard, where several modal containers are displayed in a sequence."
+msgstr "モーダルが表示されたときにアニメーションを無効にすることができます。 このオプションの主な使用法は、ウィザードを作成することで複数のモーダルコンテナがシーケンスに表示されます。"
+
+msgid "Item"
+msgstr "項目"
+
+msgid "Item to remove"
+msgstr "削除する項目"
+
+msgid "Label"
+msgstr "ラベル"
+
+msgid "Label hidden"
+msgstr "ラベルを非表示"
+
+msgid "Label position"
+msgstr "ラベルの位置"
+
+msgid "Label width"
+msgstr "ラベル幅"
+
+msgid "Labels"
+msgstr "ラベル"
+
+msgid "Last"
+msgstr "最後の行"
+
+msgid "Lazy loading"
+msgstr "遅延読み込み"
+
+msgid "Legend hidden"
+msgstr "凡例を非表示"
+
+msgid "Level 1"
+msgstr "レベル 1"
+
+msgid "Level 2"
+msgstr "レベル 2"
+
+msgid "Level 3"
+msgstr "レベル 3"
+
+msgid "Level 4"
+msgstr "レベル 4"
+
+msgid "Level 5"
+msgstr "レベル 5"
+
+msgid "Level 6"
+msgstr "レベル 6"
+
+msgid "Line"
+msgstr "線"
+
+msgid "Link"
+msgstr "リンク"
+
+msgid "Link to display or download a document"
+msgstr "ドキュメントを表示またはダウンロードするためのリンク"
+
+msgid "List from column keys"
+msgstr "列キーからのリスト"
+
+msgid "Localization"
+msgstr "ローカライゼーション"
+
+msgid "Long number values (Milliseconds since epoch)"
+msgstr "Longの長整数値 (1970/01/01からのミリ秒単位の経過時間)"
+
+msgid "MM/dd/yyyy"
+msgstr "yyyy/MM/dd"
+
+msgid "Make sure the technical format value and its translations is a valid <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">date format</a>."
+msgstr "テクニカルな書式の値とその翻訳は、有効な <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">日付書式</a> であるか確認してください。"
+
+msgid "Make sure the technical format values and their translations are valid <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">date/time formats</a>."
+msgstr "テクニカルな書式の値とその翻訳は、有効な <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">日付書式</a> であるか確認してください。"
+
+msgid "Max value"
+msgstr "最大値"
+
+msgid "Message"
+msgstr "メッセージ"
+
+msgid "Min value"
+msgstr "最小値"
+
+msgid "Miscellaneous toolbar"
+msgstr "その他のツールバー"
+
+msgid "Modal"
+msgstr "モーダル"
+
+msgid "Modal Id"
+msgstr "モーダルID"
+
+msgid "Modals"
+msgstr "モーダル"
+
+msgid "Multi-line, expandable, text input field"
+msgstr "拡張可能な複数行のテキスト入力フィールド"
+
+msgid "Multiple groups of widgets, each group in a tab"
+msgstr "複数のウィジェットグループ、タブ内の各グループ"
+
+msgid "Multiple set charts"
+msgstr "複数のセットチャート"
+
+msgid "Must be set to 'no' to enable input validation within the tab."
+msgstr "タブ内で入力検証を有効にするには、「いいえ」に設定する必要があります。"
+
+msgid "Navigation link to another page or form"
+msgstr "別のページやフォームへのナビゲーション リンク"
+
+msgid "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,<br/>consectetur,<br/>adipisci velit..."
+msgstr "<b>遊ぼう</b>っていうと<b>遊ぼう</b>っていう。<br/><b>ばか</b>っていうと<b>ばか</b>っていう。..."
+
+msgid "New window (_blank)"
+msgstr "新しいウィンドウ (_blank)"
+
+msgid "Next page to display, for applications. In the Portal, it is ignored as navigation is managed automatically"
+msgstr "アプリケーションに表示する次のページ。ポータルでは、ナビゲーションは自動的に管理されるので無視されます。"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No: user time zone is ignored. <br>Yes: display/input reflects the user time zone and may be different from value"
+msgstr "[いいえ]: ユーザーのタイムゾーンは無視されます。<br>[はい]: 表示/入力はユーザーのタイムゾーンを反映し、実際の値と異なる場合があります。"
+
+msgid "Now"
+msgstr "今時点"
+
+msgid "Now button label"
+msgstr "今時点のボタンのラベル"
+
+msgid "Number of array elements defines the number of times the container structure is repeated. Array data is available to widgets in the container"
+msgstr "配列の要素の数は、コンテナ構造体を繰り返す回数を定義します。配列データは、コンテナ内のウィジェットで使用可能です。"
+
+msgid "Number of decimal"
+msgstr "小数点以下の桁数"
+
+msgid "Number of digits after the decimal separator"
+msgstr "小数点以下の桁数"
+
+msgid "Numerical value entered by user input formatted as float number. A rounding is applied."
+msgstr "浮動小数点数で書式設定されたユーザ入力の数値。丸めが適用されます。"
+
+msgid "Object key to display"
+msgstr "表示するオブジェクトのキー"
+
+msgid "Object key to display. Leave it empty for whole object"
+msgstr "表示するオブジェクトキー。オブジェクト全体に対して空のままにする"
+
+msgid "Only works with formats supported by the browser (by default PDF and image)"
+msgstr "ブラウザでサポートされているフォーマットでのみ動作します（デフォルトのPDFと画像）"
+
+msgid "Open Modal"
+msgstr "モーダルを開く"
+
+msgid "Open modal"
+msgstr "モーダルを開く"
+
+msgid "POST"
+msgstr "POST"
+
+msgid "PUT"
+msgstr "PUT"
+
+msgid "Page size"
+msgstr "ページサイズ"
+
+msgid "Page token"
+msgstr "ページ トークン"
+
+msgid "Parent frame (_parent)"
+msgstr "親フレーム (_parent)"
+
+msgid "Perform an HTTP request"
+msgstr "HTTP リクエストを実行"
+
+msgid "Pie"
+msgstr "円グラフ"
+
+msgid "Placeholder"
+msgstr "プレース ホルダー"
+
+msgid "Polar Area"
+msgstr "Polar Area（極域）"
+
+msgid "Preview of"
+msgstr "のプレビュー"
+
+msgid "Process document"
+msgstr "プロセス ドキュメント"
+
+msgid "Process instantiation form"
+msgstr "プロセス起案フォーム"
+
+msgid "Process name"
+msgstr "プロセス名"
+
+msgid "Process version"
+msgstr "プロセスのバージョン"
+
+msgid "Radar"
+msgstr "レーダーチャート"
+
+msgid "Read-only"
+msgstr "読み取り専用"
+
+msgid "Read-write binding, initialized or updated by users' input (bi-directional bond)"
+msgstr "読み取り/書き込みのバインディング、初期化、またはユーザーの入力 （双方向バインド）による更新"
+
+msgid "Referenced in a case context (current case or other cases)"
+msgstr "案件コンテキストで参照 (現在の案件またはその他の案件)"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Remove from collection"
+msgstr "コレクションから削除"
+
+msgid "Repeat container content. Variable of type array"
+msgstr "コンテナの内容を繰り返します。配列型変数"
+
+msgid "Request"
+msgstr "リクエスト"
+
+msgid "Required"
+msgstr "必須"
+
+msgid "Response"
+msgstr "レスポンス"
+
+msgid "Returned key"
+msgstr "返されるキー"
+
+msgid "Save a variable to the LocalStorage"
+msgstr "変数を LocalStorage に保存する"
+
+msgid "Save data to / Load data from LocalStorage."
+msgstr "LocalStorage からデータを保存/読み込みします。"
+
+msgid "Save draft"
+msgstr "下書き保存"
+
+msgid "See <a href=\"https://github.com/chartjs/Chart.js/tree/v1.0.2/docs\" target=\"_blank\">chart.js</a> for details of the chart options for each type of chart. Specify a JSON structure corresponding to the options you want"
+msgstr "各タイプのチャートのチャートオプションの詳細については、 <a href=\"https://github.com/chartjs/Chart.js/tree/v1.0.2/docs\" target=\"_blank\">>chart.js</a> を参照してください。必要なオプションに対応する JSON 構造を指定します。"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "Select an option"
+msgstr "オプションを選択してください"
+
+msgid "Selected"
+msgstr "選択済み"
+
+msgid "Selected Row"
+msgstr "選択された行"
+
+msgid "Selected Value"
+msgstr "選択した値"
+
+msgid "Selected values"
+msgstr "選択された値"
+
+msgid "Send data to this URL when the button is clicked"
+msgstr "ボタンがクリックされたときに、この URL にデータを送信します。"
+
+msgid "Set <code>Bordered</code> property at true."
+msgstr "<code>境界線の</code> プロパティを true に設定します。"
+
+msgid "Set labels"
+msgstr "ラベルを設定"
+
+msgid "Set of buttons for mutually exclusive options. The user selects one option"
+msgstr "相互に排他的なオプションのボタンのセットです。ユーザーは 1 つのオプションを選択します。"
+
+msgid "Set of checkboxes for options. The user selects zero or more"
+msgstr "オプションのチェック ボックスのセットです。ユーザーは 0 個、1 個、または複数個を選択できます。"
+
+msgid "Set the Data source to Bonita API to populate the data table with records from a Bonita REST\n"
+"            API."
+msgstr "データソースをBonitaAPIに設定して、Bonita REST\n"
+"             APIからのレコードをデータテーブルに入力します。"
+
+msgid "Set the input time on the same line as the input date"
+msgstr "入力日付と同じ行に入力時刻を設定します。"
+
+msgid "Set to 'yes' to load the content only when tab is active"
+msgstr "タブがアクティブな場合にのみコンテンツを読み込むには「はい」を設定します"
+
+msgid "Setting this property to <code>no</code> will load the content of each tab during the initial page load, which may result in slower loading times."
+msgstr "このプロパティを <code>no</code> に設定すると、最初のページ読み込み時に各タブのコンテンツが読み込まれます。 読み込み時間が遅くなる可能性があります"
+
+msgid "Short hint that describes the expected input format for the date"
+msgstr "期待する日付の入力書式を説明するショートヒント"
+
+msgid "Short hint that describes the expected input format for the time"
+msgstr "期待する時刻の入力書式を説明するショートヒント"
+
+msgid "Short hint that describes the expected value"
+msgstr "期待値を説明するショートヒント"
+
+msgid "Short string or paragraph of text to be displayed. Can include HTML tags"
+msgstr "表示されるテキストの段落または短い文字列です。HTML タグを含めることができます。"
+
+msgid "Should contain time zone information only when 'Handle time zone' is set to 'yes'"
+msgstr "タイムゾーン処理が「はい」に設定されている場合にのみ、タイムゾーン情報を含める必要があります。"
+
+msgid "Show Now button"
+msgstr "現在のボタンを表示"
+
+msgid "Show Today button"
+msgstr "今日のボタンを表示"
+
+msgid "Show preview"
+msgstr "プレビューを表示"
+
+msgid "Single set charts"
+msgstr "単一セットグラフ"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Sort"
+msgstr "ソート"
+
+msgid "Sortable columns"
+msgstr "ソート可能な列"
+
+msgid "Source Type"
+msgstr "ソースのタイプ"
+
+msgid "Specifies an alternate text for an image. The text should describe the image if the image contains information or should be left empty if the image is only for decoration"
+msgstr "イメージの代替テキストを指定します。このテキストは、イメージが情報を含む場合は。その情報を記述すべきです。装飾のためだけにイメージを使用する場合は、空のままにすべきです。"
+
+msgid "Specifies the case (process instance) Id"
+msgstr "案件（プロセス インスタンス）の Id を指定します"
+
+msgid "Specifies the legal number intervals between values"
+msgstr "均等な間隔を指定"
+
+msgid "Specifies the process name"
+msgstr "プロセス名を指定します"
+
+msgid "Specifies the process version"
+msgstr "プロセス バージョンを指定します"
+
+msgid "Specifies the task instance Id"
+msgstr "タスク インスタンス Id を指定します"
+
+msgid "Specifies the type of link to create"
+msgstr "作成するリンクの種類を指定します"
+
+msgid "Specifies where to open the linked document"
+msgstr "リンクされたドキュメントを開く場所を指定します"
+
+msgid "Start a process"
+msgstr "プロセスを開始"
+
+msgid "Start process"
+msgstr "プロセスを開始"
+
+msgid "Step"
+msgstr "ステップ"
+
+msgid "Style"
+msgstr "スタイル"
+
+msgid "Style toolbar"
+msgstr "スタイルツールバー"
+
+msgid "Styling zebra-striping can be done in the theme.css file to customize <b>all</b> the tables."
+msgstr "zebra-stripingのスタイルは、theme.cssファイルで <b>すべての</b> テーブルをカスタマイズすることができます。"
+
+msgid "Styling zebra-striping can be done in the theme.css file to customize all data-tables."
+msgstr "すべてのデータテーブルをカスタマイズするために、theme.css ファイルで zebra-striping のスタイルを設定できます。"
+
+msgid "Subgroup of toolbar buttons for extra options"
+msgstr "追加オプションのツールバーボタンのサブグループ"
+
+msgid "Subgroup of toolbar buttons to arrange the text layout"
+msgstr "テキストレイアウトを配置するためのツールバーボタンのサブグループ"
+
+msgid "Subgroup of toolbar buttons to set how the text looks"
+msgstr "テキストの見た目を設定するツールバーボタンのサブグループ"
+
+msgid "Subgroup of toolbar buttons to structure the text"
+msgstr "テキストを構造化するツールバーボタンのサブグループ"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Submit a task"
+msgstr "タスクを送信"
+
+msgid "Submit task"
+msgstr "タスクを送信"
+
+msgid "Successful response value"
+msgstr "成功時のレスポンス値"
+
+msgid "Symbol"
+msgstr "記号"
+
+msgid "Symbol indentation"
+msgstr "記号のインデックス"
+
+msgid "Symbol position"
+msgstr "記号の位置"
+
+msgid "Tab properties usage"
+msgstr "タブのプロパティの使用"
+
+msgid "Tab x"
+msgstr "Tab x"
+
+msgid "Table"
+msgstr "テーブル"
+
+msgid "Table with pagination and filtering capabilities"
+msgstr "ページネーションとフィルタリング機能を持つテーブル"
+
+msgid "Tabs container"
+msgstr "タブコンテナ"
+
+msgid "Tabular presentation of data from an array"
+msgstr "配列データを表形式で表示"
+
+msgid "Target URL on success"
+msgstr "成功時のターゲットURL"
+
+msgid "Task Id"
+msgstr "タスクID"
+
+msgid "Technical Format"
+msgstr "テクニカルな書式"
+
+msgid "Technical date format"
+msgstr "テクニカルな日付書式"
+
+msgid "Technical time format"
+msgstr "テクニカルな時刻書式"
+
+msgid "Text"
+msgstr "テキスト"
+
+msgid "Text used to structure the page or form content"
+msgstr "ページまたはフォームのコンテンツの構造化に使用されるテキスト"
+
+msgid "The <code>Sortable columns</code> property enables to list the columns which allow a sorted search."
+msgstr "<code> Sortable columns</code> プロパティを使用すると、並べ替えられた検索を可能にする列を一覧表示できます。"
+
+msgid "The <em>Close modal</em> action will close the modal container that contains the button when it is pressed."
+msgstr "<em></em> アクションは、ボタンが押されたときにボタンを含むモーダルコンテナを閉じます。"
+
+msgid "The <em>Open modal</em> action can be used to open any modal container on the page. To point towards the right one, specify the ID in the button's \"Modal ID\" property."
+msgstr "<em>Open modal</em> アクションを使用して、ページ上の任意のモーダルコンテナを開くことができます。 右側に向かって指定するには、ボタンの「モーダルID」プロパティにIDを指定します。"
+
+msgid "The <em>Technical date format</em> and <em>Technical time format</em> properties define the format of the values displayed in the date and time inputs.\n"
+"            They should be valid <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">AngularJS date/time formats</a>."
+msgstr "<em>テクニカルな日付書式</em> と <em>テクニカルな時刻書式</em> のプロパティは、日時入力に表示する値の書式を定義します。\n"
+"            それらは有効な <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">AngularJS date/time format</a> にする必要があります。"
+
+msgid "The <em>Technical date format</em> property define the format of the values displayed in the date input.\n"
+"        It should be a valid <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">AngularJS date format</a>."
+msgstr "<em>テクニカルな日付書式</em>のプロパティは、日付入力に表示する値の書式を定義します。\n"
+"            それらは有効な <a href=\"https://code.angularjs.org/1.3.18/docs/api/ng/filter/date\" target=\"_blank\">AngularJS date format</a> にする必要があります。"
+
+msgid "The <em>data sent on click</em> for POST and PUT requests must be a JavaScript Object (JSON can be used). This data will be sent in the body of the request."
+msgstr "POST や PUT リクエストの<em>クリックで送信されたデータ</em> は、 JavaScript オブジェクト（JSON を使用可）にする必要があります。このデータは、リクエストの本文で送信されます。"
+
+msgid "The Display Type property allows you to customize the tabs style ('tabs' or 'pills')."
+msgstr "\n"
+"Display Type プロパティを使用すると、タブのスタイル (「タブ」または「ピル」) をカスタマイズできます。"
+
+msgid "The character separator to the fraction"
+msgstr "分数の文字の区切り文字"
+
+msgid "The character used as the thousands separator"
+msgstr "千単位の区切り文字として使用される文字"
+
+msgid "The content of <em>Label</em>, <em>Technical date format</em>, <em>Placeholder</em> properties, as well as the label of button <em>Today</em> are localized by default. Localized format can be edited in the asset <em>localization.json</em>."
+msgstr "<em>ラベル</em>、<em>テクニカルな日付書式</em>、<em>プレース ホルダー</em> のプロパティの内容は、<em>今日</em> のボタンのラベルと同様に、デフォルトでローカライズされます。ローカライズされた書式は、アセットの <em>localization.json</em> で編集できます。"
+
+msgid "The content of <em>Label</em>, <em>Technical date formats</em>, <em>Placeholder</em> properties, as well as the labels of buttons <em>Today/Now</em> are localized by default. Localized formats can be edited in the asset <em>localization.json</em>."
+msgstr "<em>ラベル</em>、<em>テクニカルな日付書式</em>、<em>プレース ホルダー</em> のプロパティの内容は、<em>今日</em> のボタンのラベルと同様に、デフォルトでローカライズされます。ローカライズされた書式は、アセットの <em>localization.json</em> で編集できます。"
+
+msgid "The default application layout will retrieve the <em>Target URL on success</em> that was sent in the message and set its window location with it."
+msgstr "デフォルトのアプリケーション レイアウトは、メッセージで送信され、そのウィンドウの位置に設定された<em>成功時のターゲットURL</em> を取得します。"
+
+msgid "The display of dates and times relies on the user's browser time zone. Therefore, displayed values are different from stored values (except in the GMT time zone)."
+msgstr "日時の表示は、ユーザーのブラウザーのタイムゾーンに依存します。したがって、表示されている値は、（GMT タイムゾーンを除き、）格納されている値と違います。"
+
+msgid "The following documentation applies if you need to handle the behavior on success yourself (e.g. if you build your own tasklist or any page with an iframe to display forms)."
+msgstr "成功時の振る舞いを自分で処理する必要がある（例えば、あなた独自のタスク リストを構築する、あるいはフォームを表示するために iframe で任意のページを構築する）場合 は、次のドキュメントを適用します。"
+
+msgid "The hex codes for the sector colors for single set charts, or for the set colors for multiple set charts. If not specified, default colors are used"
+msgstr "単一セットグラフのセクター色、または複数セットグラフの設定色は、16 進コードです。指定しない場合はデフォルトの色が使用されます。"
+
+msgid "The input/output of the widget (its <em>Value</em>) is an <a href=\"https://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">ISO 8601</a> formatted String variable."
+msgstr "ウィジェットの入力/出力 （その<em>値</em>）は、<a href=\"https://en.wikipedia.org/wiki/ISO_8601\" target=\"_blank\">ISO 8601</a> で書式化された文字列変数です。"
+
+msgid "The legend shows the sector labels for single set charts, and the set labels for multiple set charts"
+msgstr "凡例は、単一セットグラフのセクター ラベルと複数セットグラフの設定ラベルを示します。"
+
+msgid "The modal size can be selected in the container <em>Size</em> properties. Options available are small,\n"
+"            medium or large, which will control the width of the modal."
+msgstr "モーダルサイズは、コンテナの<em>Size</em>プロパティで選択できます。 利用可能なオプションは小さいですが、\n"
+"             中または大。モーダルの幅を制御します。"
+
+msgid "The modal style can be improved by using the <em>modal-body</em> specific class into the <em>CSS\n"
+"            Classes</em> property field."
+msgstr "モーダルスタイルは、<em>modal-body</em> スペフィック クラスを<em> CSSに使用することで改善できます。\n"
+"             Classes</em>プロパティフィールド。"
+
+msgid "The name of the key to use as label. Can be empty"
+msgstr "ラベルとして使用するキーの名前。空にすることができます。"
+
+msgid "The name of the key to use as value. Leave it empty for whole object"
+msgstr "値として使用するキーの名前。オブジェクト全体の場合は、空のままにします。"
+
+msgid "The portal and tasklist will redirect to the process list (<em>Start process</em> action) or refresh the task list (<em>Submit task</em> action)."
+msgstr "ポータルやタスク リストは、プロセス リストにリダイレクト（<em>プロセスの開始</em> のアクション）するか、あるいは、タスク リストをリフレッシュ（<em>タスクを送信</em> のアクション）します。"
+
+msgid "The position of the currency symbol"
+msgstr "通貨記号の位置"
+
+msgid "The property <em>Value to add</em> can either be a JavaScript Object or a String depending on the format expected for the collection you are building."
+msgstr "プロパティ <em>追加する値</em> は、コレクションに必要な形式に応じて JavaScript オブジェクトまたは文字列にすることができます。"
+
+msgid "The scale labels for the x-axis for line and bar charts, ray labels for a radar chart, sector labels for single set charts"
+msgstr "折れ線グラフと棒グラフのx軸の目盛りラベル、レーダーチャートの光線ラベル、単一セットグラフのセクターラベル"
+
+msgid "The sort is backend when datasource is Bonita API. It is frontend, otherwise."
+msgstr "データソースがBonitaAPIの場合、ソートはバックエンドです。 それ以外の場合はフロントエンドです。"
+
+msgid "The tab's properties allows you to customize default display and behaviour of tabs based on data and/or JS expressions."
+msgstr "タブのプロパティを使用すると、データや JS 式に基づいてタブのデフォルトの表示と動作をカスタマイズできます。"
+
+msgid "The values of all properties are also used as translation keys. As a result, if you choose not to keep the default values, update the asset <em>localization.json</em> accordingly."
+msgstr "すべてのプロパティの値は、翻訳キーとしても使用されます。したがって、そのデフォルト値を保持しないように選択した場合は、状況に応じてアセットの <em>localization.json</em> を変更します。"
+
+msgid "Then, provide a comma-separated list for the columns keys indicating the attribute to display in each column."
+msgstr "次に、各列に表示する属性を示す列キーのカンマ区切りリストを指定します。"
+
+msgid "This modal is based on ui-bootstrap implementation. It is possible to change the size or the style\n"
+"            of the modal."
+msgstr "このモーダルは、ui-bootstrapの実装に基づいています。 サイズやモーダルのスタイル\n"
+"             を変更することができます。"
+
+msgid "This widget can be used to display/update business variable attributes defined in the Business Data Model (BDM) with the following types:"
+msgstr "このウィジェットは、ビジネス データ モデル (BDM) に次の型で定義されているビジネス変数属性の表示/更新に使用できます。"
+
+msgid "This widget supports the following types for its <em>Value</em> property as input:"
+msgstr "このウィジェットでは、その <em>値</em> プロパティに入力として、次の型をサポートしています。"
+
+msgid "Thousands separator"
+msgstr "千単位の区切り"
+
+msgid "Time Placeholder"
+msgstr "時刻のプレース ホルダー"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Title level"
+msgstr "タイトル レベル"
+
+msgid "To Display the tab vertically and on the left of the content, you can read this <a href=\"https://www.bonitasoft.com/bos_redirect.php?bos_redirect_id=712&bos_redirect_product=bos&bos_redirect_major_version=7.10\">how\n"
+"            to learn more about customization</a>"
+msgstr "タブを縦方向および左方向に表示するには、 <a href=\"https://www.bonitasoft.com/bos_redirect.php?bos_redirect_id=712&bos_redirect_product=bos&bos_redirect_major_version=7.10\">\n"
+"            カスタマイズの詳細については</a> をご覧ください。"
+
+msgid "To close a modal window, put a button inside the modal that you wish to close and select the <em>Close\n"
+"            modal</em> action."
+msgstr "モーダルウィンドウを閉じるには、閉じたいモーダル内にボタンを置き <em>\n"
+"            modal</em> アクションを選択します。"
+
+msgid "To control modal containers, the following methods are available in a button:"
+msgstr "モーダルコンテナを制御するには、ボタンで以下のメソッドを使用できます。"
+
+msgid "To control modal containers, the following methods are supported:"
+msgstr "モーダルコンテナを制御するには、以下の方法がサポートされています。"
+
+msgid "To define the tab selected by default"
+msgstr "デフォルトで選択されたタブを定義する"
+
+msgid "To display (and not update) a date and a time retrieved from the BDM API (or another API), you can either use this <em>Date time picker</em> widget with <em>Read-only</em> property set to \"yes\" or use a <em>Text</em>, <em>Title</em> or a <em>Table</em> widget and format the value using the provided <em>uiDate</em> <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filter</a>."
+msgstr "BDM API （または別の API）から取得した日付と時刻を表示 （更新なし）するためには、<em>日時選択</em> ウィジェットを使用して、その<em>読み取り専用</em> プロパティを「はい」にするか 、 <em>テキスト</em>、<em>タイトル</em> または <em>表</em> ウィジェットを使用して、 その値を <em>uiDate</em> <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">フィルター</a> で書式化します。"
+
+msgid "To display (and not update) a date retrieved from the BDM API (or another API), you can either use this <em>Date picker</em> widget with <em>Read-only</em> property set to \"yes\" or use a <em>Text</em>, <em>Title</em> or a <em>Table</em> widget and format the value using the provided <em>uiDate</em> <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filter</a>."
+msgstr "BDM API （または別の API）から取得した日付を表示 （更新なし）するためには、<em>日付選択</em> ウィジェットを使用して、その<em>読み取り専用</em> プロパティを「はい」にするか 、 <em>テキスト</em>、<em>タイトル</em> または <em>表</em> ウィジェットを使用して、 その値を <em>uiDate</em> <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">フィルター</a> で書式化します。"
+
+msgid "To display the data, define the header properties with a comma-separated list of column headings,\n"
+"            bind the content to an array of JavaScript objects."
+msgstr "データを表示するには、ヘッダープロパティをカンマ区切りで列見出しのリストで定義します。\n"
+"            JavaScriptオブジェクトの配列にコンテンツをバインドします。"
+
+msgid "To embed a pop-in into another pop-in at runtime, drop the first modal container at the bottom, drop the second modal container below the first one, and drop the button that opens the second pop-in within the first modal container."
+msgstr "実行時にポップインを別のポップインに埋め込むには、最初のモーダルコンテナを下部にドロップし、2番目のモーダルコンテナを最初のモーダルコンテナの下にドロップし、2番目のモーダルコンテナを開くボタンを最初のモーダルコンテナ内にドロップします。"
+
+msgid "To enable form validation across multiple tabs, set the <b>Lazy loading</b> property to <code>no</code> for each tab."
+msgstr "複数のタブでフォームの検証を有効にするには、各タブで <b>遅延読み込み</b> プロパティを <code>no</code> に設定します。"
+
+msgid "To get the data from a selected row, bind selected row to a variable."
+msgstr "選択した行からデータを取得するには、選択した行を変数にバインドします。"
+
+msgid "To open a modal window it is enough to input a modal ID in the properties, to create a button,\n"
+"            select <em>Open modal</em> in the Action property, and fill in the right modal ID. The button should be\n"
+"            located outside of the modal container."
+msgstr "モーダルウィンドウを開くには、プロパティにモーダルIDを入力し、ボタンを作成するだけで十分です\n"
+"            はアクション プロパティ内の <em>Open modal</em> を選択し適切なモーダルIDを入力します。ボタンはモーダルコンテナの外側にある\n"
+"            である必要があります。"
+
+msgid "To pre-fill with a template, bind an HTML formatted variable"
+msgstr "テンプレートを事前の埋めるために、HTML で書式設定した変数をバインド"
+
+msgid "To select a date and a time (e.g., to schedule a meeting), use the <em>Date time picker</em> widget instead."
+msgstr "日付と時間（たとえば、会議をスケジュールする）を選択するには、<em>日時選択</em> ウィジェットを使用します。"
+
+msgid "To select only a date (e.g., a date of birth), use the <em>Date picker</em> widget instead."
+msgstr "日付だけ（たとえば、誕生日）を選択するには、<em>日付選択</em> ウィジェットを使用します。"
+
+msgid "Today"
+msgstr "今日"
+
+msgid "Today & Now"
+msgstr "今日の今時点"
+
+msgid "Today button label"
+msgstr "今日のボタンのラベル"
+
+msgid "Top frame (_top)"
+msgstr "トップ フレーム (_top)"
+
+msgid "Trigger for an action in a page or form"
+msgstr "ページまたはフォームのアクションのトリガー"
+
+msgid "Type"
+msgstr "タイプ"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "URL parameters"
+msgstr "URL パラメータ"
+
+msgid "URL to call"
+msgstr "コールするURL"
+
+msgid "URL used to perform the HTTP request when this button is clicked."
+msgstr "クリックされた時にHTTPリクエストを実行するために使用するURL"
+
+msgid "Unique ID of this modal"
+msgstr "モーダルのユニークID"
+
+msgid "Unique checkbox for an option. The user checks it or not"
+msgstr "ユニークなオプションのチェック ボックス。ユーザーはチェックオンまたはオフにします。"
+
+msgid "Usage"
+msgstr "使い方"
+
+msgid "Use $collection to act on the collection of a repeated content"
+msgstr "繰り返されるコンテンツのコレクションを作動するためには、$collection を使用します。"
+
+msgid "Use $item to remove the current item in a repeated collection"
+msgstr "繰返しコレクション内の現在項目を削除するには、$item を使用します。"
+
+msgid "Use <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">Filters</a> to format the data (e.g. <span ng-non-bindable>columnKey|uiDate</span>)"
+msgstr "日付の書式設定には、<a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">フィルター</a> を使用します。 （たとえば、 <span ng-non-bindable>columnKey | uiDate</span>）"
+
+msgid "Use <span ng-non-bindable>{{dataVariable}}</span> to access data, and <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filters</a> to format it (e.g. <span ng-non-bindable>{{dateVariable|uiDate}}</span>)"
+msgstr "データのアクセスには、<span ng-non-bindable>{{dataVariable}}</span> を使用し、その書式設定には、<a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">フィルター</a> を使用し ます。（たとえば、 <span ng-non-bindable>{{dateVariable|uiDate}}</span>）"
+
+msgid "Use basic html tags (if allowed), <span ng-non-bindable>{{dataVariable}}</span> to access data, and <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">filters</a> to format it (e.g. <span ng-non-bindable>{{dateVariable|uiDate}}</span>)"
+msgstr "データのアクセスには、基本的な html タグ <span ng-non-bindable>{{dataVariable}}</span> を使用（可能な場合）し、その書式設定には、<a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">フィルター</a> を使用し ます。（たとえば、 <span ng-non-bindable>{{dateVariable|uiDate}}</span>）"
+
+msgid "Use the characters: H (hour), h (hour in AM/PM), m (minutes) and optionally s (seconds), a (AM/PM)"
+msgstr "使用文字： H (時間)、h (午前/午後の時間)、m (分)、オプションで s (秒) 、a (午前/午後)"
+
+msgid "Use the characters: M (month), d (day), y (year)"
+msgstr "使用文字： M (月)、d (日)、 y (年)"
+
+msgid "Use this container to create a pop-in window which can be opened or closed with a button, and displayed over the page, form, or layout content."
+msgstr "このコンテナを使用して、ボタンで開いたり閉じたりして、ページ、フォーム、またはレイアウトのコンテンツの上に表示できるポップインウィンドウを作成します。"
+
+msgid "Use this widget to select a date (e.g., a date of birth)."
+msgstr "日付を選択するためには、このウィジェットを使用します（たとえば、誕生日）。"
+
+msgid "Use this widget to select a date and a time (e.g., to schedule a meeting)."
+msgstr "日時を選択するためには、このウィジェットを使用します（たとえば、会議開始時刻）。"
+
+msgid "Use this widget to:"
+msgstr "このウィジェットを使用:"
+
+msgid "Using the Vertical Display property, it is possible to display tabs vertically or horizontally."
+msgstr "Vertical Display プロパティを使用すると、タブを垂直または水平に表示できます。"
+
+msgid "Value"
+msgstr "値"
+
+msgid "Value Format"
+msgstr "値の書式"
+
+msgid "Value max length"
+msgstr "値の最大文字数"
+
+msgid "Value min length"
+msgstr "値の最小文字数"
+
+msgid "Value must be unique"
+msgstr "値はユニークである必要があります。"
+
+msgid "Value to add"
+msgstr "追加する値"
+
+msgid "Variable"
+msgstr "変数"
+
+msgid "Variable content formatted in HTML"
+msgstr "HTML 内で書式設定された変数の内容"
+
+msgid "Variable for frontend paging and ordering or Bonita REST API URL for backend paging and ordering"
+msgstr "フロントエンドのページングと並べ替えのための変数、またはバックエンドのページングと並べ替えのためのBonita REST API URL"
+
+msgid "Variable of type array"
+msgstr "配列型変数"
+
+msgid "Vertical display"
+msgstr "垂直表示"
+
+msgid "When 'Content' is a list of objects, specifies the attributes to display in the table columns. These keys must not be a number, or start with a number"
+msgstr "'Content' がオブジェクトのリストである場合、テーブルの列に表示する属性を指定します。 これらのキーは数字または数字で始まることはできません"
+
+msgid "When sent in the JSON body of a request, it is serialized into an ISO 8601 formatted String variable with the time set to midnight UTC (e.g., 2016-12-31T00:00:00.000Z)."
+msgstr "リクエストの JSON 本体に送信されると、真夜中の UTC に設定された時刻（たとえば、2016-12-31T00:00:00.000Z）が ISO 8601 で書式化された文字列変数にシリアル化されます。"
+
+msgid "When the table is displayed, each time the user updates the filter, the table display is\n"
+"            updated accordingly. The filter is applied to the table rows that are currently displayed."
+msgstr "テーブルが表示されると、ユーザーがフィルターを更新するたびに、テーブルの表示は次のように\n"
+"             それに応じて更新されます。 フィルタは、現在表示されているテーブル行に適用されます。"
+
+msgid "Whenever this form is reloaded, either by hitting F5 or browsing away and back again, the entry will be reloaded automatically from LocalStorage."
+msgstr "F5キーを押すかブラウジングして再度参照することにより、このフォームが再ロードされるたびに、エントリはLocalStorageから自動的に再ロードされます。"
+
+msgid "Will be retrieved from the URL if not set ('app' parameter). You can pass it in the query string of the preview URL for tests."
+msgstr "（'app' パラメータ） を設定していない場合、URL から取得されます。テスト用のプレビュー URL のクエリ文字列で渡すことができます。"
+
+msgid "With this widget, you can display data from an array in tabular presentation."
+msgstr "このウィジェットを使用すると、表形式のプレゼンテーションで配列のデータを表示できます。"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "You can provide a filter for users to update the displayed table to show only the rows that match\n"
+"            the filter. To do this :"
+msgstr "ユーザーが表示されたテーブルを更新して、フィルターに一致する行のみを表示するための \n"
+"             フィルターを提供できます。 これを実行するには ："
+
+msgid "You can use the <code>API request parameters</code> property to pass additional parameters to the\n"
+"            request. Supported parameters are described in the REST API Overview documentation page and in the REST API documentation for the relevant resources."
+msgstr "<code>API リクエストパラメータ</code> プロパティを使用して、\n"
+"            リクエストに追加のパラメータを渡すことができます。 サポートされているパラメータについては、REST API の概要ドキュメントページおよび関連リソースの REST API ドキュメントを参照してください。"
+
+msgid "You do not need to specify paging parameters (such as ?p=0&c=10), because the data table handles paging automatically when you use a Bonita API data source."
+msgstr "Bonita API データ ソースを使用すると、データ テーブルがページングを自動的に処理するためページング パラメーター (?p=0&c=10 など) を指定する必要はありません。"
+
+msgid "You need to use this following css selector in your theme.css file:"
+msgstr "theme.css ファイルで次のCSSセレクタを使用する必要があります:"
+
+msgid "Zebra-striping"
+msgstr "Zebra-striping（ゼブラ ストライピング）"
+
+msgid "_self"
+msgstr "_self"
+
+msgid "center"
+msgstr "中央"
+
+msgid "danger"
+msgstr "danger"
+
+msgid "default"
+msgstr "デフォルト"
+
+msgid "email"
+msgstr "電子メール"
+
+msgid "formInput"
+msgstr "formInput(フォーム入力）"
+
+msgid "h:mm:ss a"
+msgstr "h:mm:ss a"
+
+msgid "http://"
+msgstr "http://"
+
+msgid "info"
+msgstr "info"
+
+msgid "large"
+msgstr "large"
+
+msgid "left"
+msgstr "左"
+
+msgid "link"
+msgstr "リンク"
+
+msgid "medium"
+msgstr "medium"
+
+msgid "none"
+msgstr "なし"
+
+msgid "number"
+msgstr "数値"
+
+msgid "password"
+msgstr "パスワード"
+
+msgid "pills"
+msgstr "pills"
+
+msgid "primary"
+msgstr "primary"
+
+msgid "right"
+msgstr "右"
+
+msgid "small"
+msgstr "small"
+
+msgid "success"
+msgstr "成功"
+
+msgid "tabs"
+msgstr "タブ"
+
+msgid "text"
+msgstr "テキスト"
+
+msgid "top"
+msgstr "トップへ"
+
+msgid "url"
+msgstr "url"
+
+msgid "warning"
+msgstr "警告"
+
+msgid "whitespace"
+msgstr "空白"
+
+msgid "€"
+msgstr "€"
+

@@ -1,0 +1,190 @@
+{
+  "id" : "pbCurrencyInput",
+  "name" : "Currency Input",
+  "type" : "widget",
+  "custom" : false,
+  "modelVersion" : "2.6",
+  "description" : "Field where the user can enter information with a currency formatting.",
+  "template" : "<div ng-class=\"{\n    'form-horizontal': properties.labelPosition === 'left' && !properties.labelHidden,\n    'row': properties.labelPosition === 'top' && !properties.labelHidden || properties.labelHidden\n    }\">\n    <div class=\"form-group\">\n        <label\n            for=\"{{ctrl.inputId}}\"\n            ng-if=\"!properties.labelHidden && properties.allowHTML\"\n            ng-class=\"{ 'control-label--required': properties.required }\"\n            class=\"control-label col-xs-{{ properties.labelPosition === 'left' ? properties.labelWidth : 12 }}\" ng-bind-html=\"properties.label | uiTranslate\">\n        </label>\n        <label\n            for=\"{{ctrl.inputId}}\"\n            ng-if=\"!properties.labelHidden && !properties.allowHTML\"\n            ng-class=\"{ 'control-label--required': properties.required }\"\n            class=\"control-label col-xs-{{ properties.labelPosition === 'left' ? properties.labelWidth : 12 }}\" ng-bind=\"properties.label | uiTranslate\">\n        </label>\n        <div class=\"col-xs-{{ 12 - (!properties.labelHidden && properties.labelPosition === 'left' ? properties.labelWidth : 0) }}\">\n            <input\n                id=\"{{ctrl.inputId}}\"\n                autocomplete=\"off\"\n                type=\"text\"\n                class=\"form-control\"\n                placeholder=\"{{ properties.placeholder | uiTranslate }}\"\n                ng-model=\"properties.value\"\n                ng-model-options=\"{ allowInvalid: true }\"\n                name=\"{{ctrl.name}}\"\n                ng-required=\"properties.required\"\n                ng-readonly=\"properties.readOnly\"\n                min=\"{{properties.min}}\"\n                max=\"{{properties.max}}\"\n                mask-currency=\"properties.maskCurrency\" config=\"ctrl.maskCurrencyConfig\"/>\n\n            <div ng-messages=\"$form[ctrl.name].$dirty && $form[ctrl.name].$error \" ng-messages-include=\"forms-generic-errors.html\" role=\"alert\"></div>\n        </div>\n\n    </div>\n</div>\n",
+  "controller" : "function PbCurrencyInputCtrl($scope, $log, widgetNameFactory) {\n\n  'use strict';\n  var mySelf = this;\n  this.name = widgetNameFactory.getName('pbCurrencyInput');\n  this.inputId = widgetNameFactory.getId('pbCurrencyInput');\n\n  var orientation = {\n    \"right\": \"r\",\n    \"left\": \"l\"\n  }\n\n  var indentation = {\n    \"whitespace\": \" \"\n  }\n\n  var decimal = {\n    \",\": \",\",\n    \".\": \".\"\n  }\n  var groupSeparator = {\n    \"whitespace\": \" \",\n    \",\": \",\",\n    \".\": \".\"\n  }\n\n  this.maskCurrencyConfig = getMaskCurrencyConfig();\n\n  $scope.$watchGroup(['properties.orientation','properties.indentation','properties.decimal','properties.decimalSize','properties.group', 'properties.min', 'properties.max'], function() {\n    mySelf.maskCurrencyConfig =  getMaskCurrencyConfig();\n  });\n\n  function getMaskCurrencyConfig() {\n    return {\n      orientation: orientation[$scope.properties.orientation] || 'r',\n      indentation: $scope.properties.indentation === 'none' ? '' : indentation[$scope.properties.indentation] || $scope.properties.indentation,\n      decimal: decimal[$scope.properties.decimal] || $scope.properties.decimal || ',',\n      decimalSize: parseInt($scope.properties.decimalSize) || 0,\n      group: $scope.properties.group === 'none' ? '' : groupSeparator[$scope.properties.group] || $scope.properties.group,\n      groupSize: 3\n    }\n  }\n\n  if (!$scope.properties.isBound('value')) {\n    $log.error('the pbCurrencyInput property named \"value\" need to be bound to a variable');\n  }\n\n}\n",
+  "properties" : [
+    {
+      "label" : "Required",
+      "name" : "required",
+      "help" : "In the context of a form container, use $form.$invalid as a Boolean to check form validity in a widget property",
+      "type" : "boolean",
+      "defaultValue" : false,
+      "bond" : "expression"
+    },
+    {
+      "label" : "Read-only",
+      "name" : "readOnly",
+      "type" : "boolean",
+      "defaultValue" : false,
+      "bond" : "expression"
+    },
+    {
+      "label" : "Interpret HTML in label",
+      "name" : "allowHTML",
+      "help" : "If you choose 'no', HTML code will be escaped instead of being interpreted. If you choose 'Yes', this could potentially lead to HTML injections attacks. Please take into account these risks.",
+      "showFor" : "properties.labelHidden.value === false",
+      "type" : "boolean",
+      "defaultValue" : false,
+      "bond" : "constant"
+    },
+    {
+      "label" : "Label hidden",
+      "name" : "labelHidden",
+      "type" : "boolean",
+      "defaultValue" : false,
+      "bond" : "constant"
+    },
+    {
+      "label" : "Label",
+      "name" : "label",
+      "showFor" : "properties.labelHidden.value === false",
+      "type" : "text",
+      "defaultValue" : "Amount",
+      "bond" : "interpolation"
+    },
+    {
+      "label" : "Label position",
+      "name" : "labelPosition",
+      "showFor" : "properties.labelHidden.value === false",
+      "type" : "choice",
+      "defaultValue" : "top",
+      "choiceValues" : [
+        "left",
+        "top"
+      ],
+      "bond" : "constant"
+    },
+    {
+      "label" : "Label width",
+      "name" : "labelWidth",
+      "showFor" : "properties.labelHidden.value === false",
+      "type" : "integer",
+      "defaultValue" : 4,
+      "bond" : "constant",
+      "constraints" : {
+        "min" : "1",
+        "max" : "12"
+      }
+    },
+    {
+      "label" : "Placeholder",
+      "name" : "placeholder",
+      "help" : "Short hint that describes the expected value",
+      "type" : "text",
+      "bond" : "interpolation"
+    },
+    {
+      "label" : "Value",
+      "name" : "value",
+      "caption" : "Any variable: <i>myData</i> or <i>myData.attribute</i>",
+      "help" : "Numerical value entered by user input formatted as float number. A rounding is applied.",
+      "type" : "text",
+      "bond" : "variable"
+    },
+    {
+      "label" : "Min value",
+      "name" : "min",
+      "help" : "In the context of a form container, use $form.$invalid as a Boolean to check form validity in a widget property",
+      "type" : "integer",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Max value",
+      "name" : "max",
+      "help" : "In the context of a form container, use $form.$invalid as a Boolean to check form validity in a widget property",
+      "type" : "integer",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Symbol",
+      "name" : "maskCurrency",
+      "help" : "Can be any string, hence enabling any symbol (€, $, …) or any abbreviation (EUR, USD, …). Numeric characters will be removed on display",
+      "type" : "text",
+      "defaultValue" : "€",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Symbol position",
+      "name" : "orientation",
+      "help" : "The position of the currency symbol",
+      "type" : "choice",
+      "defaultValue" : "right",
+      "choiceValues" : [
+        "left",
+        "right"
+      ],
+      "bond" : "expression"
+    },
+    {
+      "label" : "Symbol indentation",
+      "name" : "indentation",
+      "help" : "Defines character(s) separation between currency sign and value",
+      "type" : "choice",
+      "defaultValue" : "none",
+      "choiceValues" : [
+        "none",
+        "whitespace"
+      ],
+      "bond" : "expression"
+    },
+    {
+      "label" : "Number of decimal",
+      "name" : "decimalSize",
+      "help" : "Number of digits after the decimal separator",
+      "type" : "integer",
+      "defaultValue" : 2,
+      "bond" : "expression",
+      "constraints" : {
+        "min" : "0",
+        "max" : "3"
+      }
+    },
+    {
+      "label" : "Decimal separator",
+      "name" : "decimal",
+      "help" : "The character separator to the fraction",
+      "type" : "choice",
+      "defaultValue" : ",",
+      "choiceValues" : [
+        ",",
+        "."
+      ],
+      "bond" : "expression"
+    },
+    {
+      "label" : "Thousands separator",
+      "name" : "group",
+      "help" : "The character used as the thousands separator",
+      "type" : "choice",
+      "defaultValue" : "whitespace",
+      "choiceValues" : [
+        "none",
+        "whitespace",
+        ",",
+        "."
+      ],
+      "bond" : "expression"
+    }
+  ],
+  "assets" : [
+    {
+      "id" : "dad0d91e-4b99-4b12-afd5-a53aecf846aa",
+      "name" : "angularjs-currency-input-mask-1.1.7-patched.min.js",
+      "type" : "js",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "requiredModules" : [
+    "cur.$mask"
+  ],
+  "webResources" : [ ],
+  "icon" : "<svg width=\"50\" height=\"20\" xmlns=\"http://www.w3.org/2000/svg\"> <g>    <g id=\"svg_1\">   <path id=\"svg_2\" d=\"m0.88024,19l0,-18l48,0l0,18l-48,0zm-1,-19l0,20l50,0l0,-20l-50,0zm6,18l0,-1l-1,0l0,1l1,0zm2,-1l-1,0l0,1l1,0l0,-1zm-1,-15l0,1l1,0l0,-1l-1,0zm-2,1l1,0l0,-1l-1,0l0,1zm1,0l0,14l1,0l0,-14l-1,0z\" fill=\"#fff\"/>  </g>  <text fill=\"#ffffff\" stroke-width=\"0\" x=\"38.69116\" y=\"15.14192\" id=\"svg_3\" font-size=\"24\" font-family=\"Noto Sans JP\" text-anchor=\"start\" xml:space=\"preserve\" stroke=\"#000\" transform=\"matrix(1.0014 0 0 0.840179 -2.51108 3.72124)\">$</text>  <rect stroke=\"#000\" id=\"svg_4\" height=\"15.20956\" width=\"49.34124\" y=\"21.55687\" x=\"0.20962\" fill=\"#fff\"/></g></svg>",
+  "order" : 1,
+  "hasHelp" : false
+}
