@@ -27,145 +27,15 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="april.sanchez">
-      <firstName>April</firstName>
-      <lastName>Sanchez</lastName>
-      <title>Mrs</title>
-      <jobTitle>Compensation specialist</jobTitle>
-      <manager>helen.kelly</manager>
-      <personalData/>
-      <professionalData>
-        <email>april.sanchez@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="helen.kelly">
-      <firstName>Helen</firstName>
-      <lastName>Kelly</lastName>
-      <title>Mrs</title>
-      <jobTitle>Human resource manager</jobTitle>
-      <manager>william.jobs</manager>
-      <personalData/>
-      <professionalData>
-        <email>helen.kelly@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
     <user userName="walter.bates">
       <firstName>Walter</firstName>
       <lastName>Bates</lastName>
       <title>Mr</title>
       <jobTitle>Human resources benefits</jobTitle>
-      <manager>helen.kelly</manager>
+      <manager></manager>
       <personalData/>
       <professionalData>
         <email>walter.bates@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="zachary.williamson">
-      <firstName>Zachary</firstName>
-      <lastName>Williamson</lastName>
-      <title>Mr</title>
-      <jobTitle>Chief Financial Officer</jobTitle>
-      <manager>william.jobs</manager>
-      <personalData/>
-      <professionalData>
-        <email>zachary.williamson@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="patrick.gardenier">
-      <firstName>Patrick</firstName>
-      <lastName>Gardenier</lastName>
-      <title>Mr</title>
-      <jobTitle>Financial controller</jobTitle>
-      <manager>zachary.williamson</manager>
-      <personalData/>
-      <professionalData>
-        <email>patrick.gardenier@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="virginie.jomphe">
-      <firstName>Virginie</firstName>
-      <lastName>Jomphe</lastName>
-      <title>Mrs</title>
-      <jobTitle>Accountant</jobTitle>
-      <manager>zachary.williamson</manager>
-      <personalData/>
-      <professionalData>
-        <email>virginie.jomphe@rescue.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -209,90 +79,12 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="jan.fisher">
-      <firstName>Jan</firstName>
-      <lastName>Fisher</lastName>
-      <title>Mr</title>
-      <jobTitle>Infrastucture specialist</jobTitle>
-      <manager>favio.riviera</manager>
-      <personalData/>
-      <professionalData>
-        <email>jan.fisher@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="isabel.bleasdale">
-      <firstName>Isabel</firstName>
-      <lastName>Bleasdale</lastName>
-      <title>Mrs</title>
-      <jobTitle>Product marketing manager</jobTitle>
-      <manager>favio.riviera</manager>
-      <personalData/>
-      <professionalData>
-        <email>isabel.bleasdale@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="favio.riviera">
-      <firstName>Favio</firstName>
-      <lastName>Riviera</lastName>
-      <title>Mr</title>
-      <jobTitle>Vice President of Marketing</jobTitle>
-      <manager>william.jobs</manager>
-      <personalData/>
-      <professionalData>
-        <email>favio.riviera@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
     <user userName="michael.morrison">
       <firstName>Michael</firstName>
       <lastName>Morrison</lastName>
       <title>Mr</title>
       <jobTitle>Chief Technical Officer</jobTitle>
-      <manager>william.jobs</manager>
+      <manager></manager>
       <personalData/>
       <professionalData>
         <email>michael.morrison@rescue.com</email>
@@ -318,7 +110,7 @@
       <lastName>Marseau</lastName>
       <title>Mr</title>
       <jobTitle>Engineer</jobTitle>
-      <manager>michael.morrison</manager>
+      <manager></manager>
       <personalData/>
       <professionalData>
         <email>marc.marseau@rescue.com</email>
@@ -344,7 +136,7 @@
       <lastName>Hovell</lastName>
       <title>Mr</title>
       <jobTitle>Engineer</jobTitle>
-      <manager>michael.morrison</manager>
+      <manager></manager>
       <personalData/>
       <professionalData>
         <email>joseph.hovell@rescue.com</email>
@@ -370,7 +162,7 @@
       <lastName>Zetticci</lastName>
       <title>Mr</title>
       <jobTitle>Consultant</jobTitle>
-      <manager>michael.morrison</manager>
+      <manager></manager>
       <personalData/>
       <professionalData>
         <email>mauro.zetticci@rescue.com</email>
@@ -396,62 +188,10 @@
       <lastName>Wallis</lastName>
       <title>Mr</title>
       <jobTitle>Consultant</jobTitle>
-      <manager>michael.morrison</manager>
+      <manager></manager>
       <personalData/>
       <professionalData>
         <email>thomas.wallis@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="daniela.angelo">
-      <firstName>Daniela</firstName>
-      <lastName>Angelo</lastName>
-      <title>Mrs</title>
-      <jobTitle>Vice President of Sales</jobTitle>
-      <manager>william.jobs</manager>
-      <personalData/>
-      <professionalData>
-        <email>daniela.angelo@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
-    <user userName="anthony.nichols">
-      <firstName>Anthony</firstName>
-      <lastName>Nichols</lastName>
-      <title>Mr</title>
-      <jobTitle>Account manager</jobTitle>
-      <manager>daniela.angelo</manager>
-      <personalData/>
-      <professionalData>
-        <email>anthony.nichols@rescue.com</email>
         <phoneNumber>484-302-5000</phoneNumber>
         <faxNumber>484-302-0000</faxNumber>
         <building>70</building>
@@ -521,37 +261,22 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="giovanna.almeida">
-      <firstName>Giovanna</firstName>
-      <lastName>Almeida</lastName>
-      <title>Mrs</title>
-      <jobTitle>Account manager</jobTitle>
-      <manager>daniela.angelo</manager>
-      <personalData/>
-      <professionalData>
-        <email>giovanna.almeida@rescue.com</email>
-        <phoneNumber>484-302-5000</phoneNumber>
-        <faxNumber>484-302-0000</faxNumber>
-        <building>70</building>
-        <address>Renwick Drive</address>
-        <zipCode>19108</zipCode>
-        <city>Philadelphia</city>
-        <state>PA</state>
-        <country>United States</country>
-      </professionalData>
-      <metaDatas>
-        <metaData name="Skype ID"/>
-        <metaData name="Twitter"/>
-        <metaData name="Facebook"/>
-      </metaDatas>
-      <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
-    </user>
   </users>
   <roles>
-    <role name="member">
-      <displayName>Member</displayName>
-      <description></description>
+    <role name="operador_municipal">
+      <displayName>Operador Municipal</displayName>
+    </role>
+    <role name="centro_coordinador">
+      <displayName>Centro Coordinador Regional</displayName>
+    </role>
+    <role name="representante_ong">
+      <displayName>Representante de ONG</displayName>
+    </role>
+    <role name="auditor">
+      <displayName>Auditor</displayName>
+    </role>
+    <role name="directivo">
+      <displayName>Directivo</displayName>
     </role>
   </roles>
   <groups>
@@ -559,180 +284,87 @@
       <displayName>Rescue</displayName>
       <description>This group represents the rescue department of the RESCUE organization</description>
     </group>
-    <group name="hr" parentPath="/rescue">
-      <displayName>Human Resources</displayName>
-      <description>This group represents the human resources department of the RESCUE organization</description>
+    <group name="municipios" parentPath="/rescue">
+      <displayName>Municipios</displayName>
+      <description>This group represents the municipios of the RESCUE organization</description>
     </group>
-    <group name="finance" parentPath="/rescue">
-      <displayName>Finance</displayName>
-      <description>This group represents the finance department of the RESCUE organization</description>
+    <group name="ongs" parentPath="/rescue">
+      <displayName>Ongs</displayName>
+      <description>This group represents the ongs of the RESCUE organization</description>
     </group>
-    <group name="it" parentPath="/rescue">
-      <displayName>Infrastructure</displayName>
-      <description>This group represents the infrastructure department of the RESCUE organization</description>
+    <group name="directivos" parentPath="/rescue">
+      <displayName>Directivos</displayName>
+      <description>This group represents the directivos of the RESCUE organization</description>
     </group>
-    <group name="marketing" parentPath="/rescue">
-      <displayName>Marketing</displayName>
-      <description>This group represents the marketing department of the RESCUE organization</description>
+    <group name="auditores" parentPath="/rescue">
+      <displayName>Auditores</displayName>
+      <description>This group represents the auditores of the RESCUE organization</description>
     </group>
-    <group name="production" parentPath="/rescue">
-      <displayName>Production</displayName>
-      <description>This group represents the production department of the RESCUE organization</description>
-    </group>
-    <group name="sales" parentPath="/rescue">
-      <displayName>Sales</displayName>
-      <description>This group represents the sales department of the RESCUE organization</description>
-    </group>
-    <group name="europe" parentPath="/rescue/sales">
-      <displayName>Europe</displayName>
-      <description>This group represents the europe department of the RESCUE organization</description>
-    </group>
-    <group name="asia" parentPath="/rescue/sales">
-      <displayName>Asia</displayName>
-      <description>This group represents the asia department of the RESCUE organization</description>
-    </group>
-    <group name="latin_america" parentPath="/rescue/sales">
-      <displayName>Latin America</displayName>
-      <description>This group represents the latin america department of the RESCUE organization</description>
-    </group>
-    <group name="north_america" parentPath="/rescue/sales">
-      <displayName>North America</displayName>
-      <description>This group represents the north america department of the RESCUE organization</description>
-    </group>
-    <group name="rd" parentPath="/rescue/production">
-      <displayName>Research &amp; Development</displayName>
-      <description>This group represents the research &amp; development department of the RESCUE organization</description>
-    </group>
-    <group name="services" parentPath="/rescue/production">
-      <displayName>Services</displayName>
-      <description>This group represents the services department of the RESCUE organization</description>
+    <group name="coordinadores" parentPath="/rescue">
+      <displayName>Coordinadores</displayName>
+      <description>This group represents the coordinadores of the RESCUE organization</description>
     </group>
   </groups>
   <memberships>
     <membership>
       <userName>william.jobs</userName>
-      <roleName>member</roleName>
-      <groupName>rescue</groupName>
-    </membership>
-    <membership>
-      <userName>april.sanchez</userName>
-      <roleName>member</roleName>
-      <groupName>hr</groupName>
-      <groupParentPath>/rescue</groupParentPath>
-    </membership>
-    <membership>
-      <userName>helen.kelly</userName>
-      <roleName>member</roleName>
-      <groupName>hr</groupName>
+      <roleName>operador_municipal</roleName>
+      <groupName>municipios</groupName>
       <groupParentPath>/rescue</groupParentPath>
     </membership>
     <membership>
       <userName>walter.bates</userName>
-      <roleName>member</roleName>
-      <groupName>hr</groupName>
-      <groupParentPath>/rescue</groupParentPath>
-    </membership>
-    <membership>
-      <userName>zachary.williamson</userName>
-      <roleName>member</roleName>
-      <groupName>finance</groupName>
-      <groupParentPath>/rescue</groupParentPath>
-    </membership>
-    <membership>
-      <userName>patrick.gardenier</userName>
-      <roleName>member</roleName>
-      <groupName>finance</groupName>
-      <groupParentPath>/rescue</groupParentPath>
-    </membership>
-    <membership>
-      <userName>virginie.jomphe</userName>
-      <roleName>member</roleName>
-      <groupName>finance</groupName>
+      <roleName>operador_municipal</roleName>
+      <groupName>municipios</groupName>
       <groupParentPath>/rescue</groupParentPath>
     </membership>
     <membership>
       <userName>thorsten.hartmann</userName>
-      <roleName>member</roleName>
-      <groupName>finance</groupName>
-      <groupParentPath>/rescue</groupParentPath>
-    </membership>
-    <membership>
-      <userName>jan.fisher</userName>
-      <roleName>member</roleName>
-      <groupName>it</groupName>
-      <groupParentPath>/rescue</groupParentPath>
-    </membership>
-    <membership>
-      <userName>isabel.bleasdale</userName>
-      <roleName>member</roleName>
-      <groupName>marketing</groupName>
-      <groupParentPath>/rescue</groupParentPath>
-    </membership>
-    <membership>
-      <userName>favio.riviera</userName>
-      <roleName>member</roleName>
-      <groupName>marketing</groupName>
+      <roleName>representante_ong</roleName>
+      <groupName>ongs</groupName>
       <groupParentPath>/rescue</groupParentPath>
     </membership>
     <membership>
       <userName>michael.morrison</userName>
-      <roleName>member</roleName>
-      <groupName>production</groupName>
+      <roleName>centro_coordinador</roleName>
+      <groupName>coordinadores</groupName>
       <groupParentPath>/rescue</groupParentPath>
     </membership>
     <membership>
       <userName>marc.marseau</userName>
-      <roleName>member</roleName>
-      <groupName>rd</groupName>
-      <groupParentPath>/rescue/production</groupParentPath>
+      <roleName>auditor</roleName>
+      <groupName>auditores</groupName>
+      <groupParentPath>/rescue</groupParentPath>
     </membership>
     <membership>
       <userName>joseph.hovell</userName>
-      <roleName>member</roleName>
-      <groupName>rd</groupName>
-      <groupParentPath>/rescue/production</groupParentPath>
+      <roleName>auditor</roleName>
+      <groupName>auditores</groupName>
+      <groupParentPath>/rescue</groupParentPath>
     </membership>
     <membership>
       <userName>mauro.zetticci</userName>
-      <roleName>member</roleName>
-      <groupName>services</groupName>
-      <groupParentPath>/rescue/production</groupParentPath>
+      <roleName>centro_coordinador</roleName>
+      <groupName>coordinadores</groupName>
+      <groupParentPath>/rescue</groupParentPath>
     </membership>
     <membership>
       <userName>thomas.wallis</userName>
-      <roleName>member</roleName>
-      <groupName>services</groupName>
-      <groupParentPath>/rescue/production</groupParentPath>
-    </membership>
-    <membership>
-      <userName>daniela.angelo</userName>
-      <roleName>member</roleName>
-      <groupName>europe</groupName>
-      <groupParentPath>/rescue/sales</groupParentPath>
+      <roleName>representante_ong</roleName>
+      <groupName>ongs</groupName>
+      <groupParentPath>/rescue</groupParentPath>
     </membership>
     <membership>
       <userName>misa.kumagai</userName>
-      <roleName>member</roleName>
-      <groupName>asia</groupName>
-      <groupParentPath>/rescue/sales</groupParentPath>
+      <roleName>directivo</roleName>
+      <groupName>directivos</groupName>
+      <groupParentPath>/rescue</groupParentPath>
     </membership>
     <membership>
       <userName>norio.yamazaki</userName>
-      <roleName>member</roleName>
-      <groupName>asia</groupName>
-      <groupParentPath>/rescue/sales</groupParentPath>
-    </membership>
-    <membership>
-      <userName>giovanna.almeida</userName>
-      <roleName>member</roleName>
-      <groupName>latin_america</groupName>
-      <groupParentPath>/rescue/sales</groupParentPath>
-    </membership>
-    <membership>
-      <userName>anthony.nichols</userName>
-      <roleName>member</roleName>
-      <groupName>north_america</groupName>
-      <groupParentPath>/rescue/sales</groupParentPath>
+      <roleName>directivo</roleName>
+      <groupName>directivos</groupName>
+      <groupParentPath>/rescue</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>
