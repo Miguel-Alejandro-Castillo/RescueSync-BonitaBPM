@@ -524,9 +524,6 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_-f7lIqysEfGhNt0l83QQlQ" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <data xmi:type="process:BusinessObjectData" xmi:id="_q4h0ULLZEfGMcrvc5IFQ8w" name="emergencia" dataType="_qnkYk6KMEfGM4bfaUYLK2A" className="ar.com.rescuesync.model.Emergencia">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_q4h0UbLZEfGMcrvc5IFQ8w" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
-      </data>
       <data xmi:type="process:Data" xmi:id="_Y7zmYLuoEfGcCZX-Fsupjg" documentation="Tiempo máximo de espera, expresado en milisegundos, antes de que la tarea finalice automáticamente o continúe por el flujo definido en el temporizador." name="ventana_tiempo_ms" dataType="_qnkYjqKMEfGM4bfaUYLK2A">
         <defaultValue xmi:type="expression:Expression" xmi:id="_Y7zmYbuoEfGcCZX-Fsupjg" name="10000" content="10000" returnType="java.lang.Long"/>
       </data>
