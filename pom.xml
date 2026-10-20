@@ -17,5 +17,6 @@
   <modules>
     <module>app</module>
     <module>bdm</module>
+    <module>extensions</module>
   </modules>
 </project>
