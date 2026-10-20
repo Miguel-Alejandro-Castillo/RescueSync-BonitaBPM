@@ -26,15 +26,23 @@ final class ApiNacionalClient {
 	private String accessToken
 	private String tokenType = "Bearer"
 
+	ApiNacionalClient(String baseUrl){
+		this.baseUrl = requireValue(
+			baseUrl,
+			"baseUrl"
+		).replaceAll('/+$', '')
+		
+		this.httpClient = HttpClient.newBuilder()
+		.connectTimeout(CONNECT_TIMEOUT)
+		.build()
+	}
+
 	ApiNacionalClient(
 		String baseUrl,
 		String username,
 		String password
 	) {
-		this.baseUrl = requireValue(
-			baseUrl,
-			"baseUrl"
-		).replaceAll('/+$', '')
+		this(baseUrl)
 
 		this.username = requireValue(
 			username,
@@ -46,9 +54,6 @@ final class ApiNacionalClient {
 			"password"
 		)
 
-		this.httpClient = HttpClient.newBuilder()
-			.connectTimeout(CONNECT_TIMEOUT)
-			.build()
 	}
 
 	Object get(String path) {
