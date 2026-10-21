@@ -26,7 +26,7 @@ final class ApiNacionalClientFactory {
 			parameters["api_nacional_path"]
 		)
 
-        return new ApiNacionalClient(baseUrl, parameters["api_nacional_user"], parameters["api_nacional_password"])
+        return new ApiNacionalClient(baseUrl)
     }
 
     private static String joinUrl(String url, String path) {
