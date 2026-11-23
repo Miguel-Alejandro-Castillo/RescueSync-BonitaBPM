@@ -1759,8 +1759,8 @@
           <data xmi:type="process:Data" xmi:id="_2vp3sN7pEfGJAaZnSquGbw" name="jwt_token_nacional" dataType="_qnkYkKKMEfGM4bfaUYLK2A">
             <defaultValue xmi:type="expression:Expression" xmi:id="_2vp3sd7pEfGJAaZnSquGbw" content=""/>
           </data>
-          <data xmi:type="process:JavaObjectData" xmi:id="_PoCUQN7vEfGJAaZnSquGbw" name="response" dataType="_qnkYkaKMEfGM4bfaUYLK2A" className="groovy.json.JsonSlurper">
-            <defaultValue xmi:type="expression:Expression" xmi:id="_PoCUQd7vEfGJAaZnSquGbw" content="" type="TYPE_READ_ONLY_SCRIPT" returnType="groovy.json.JsonSlurper"/>
+          <data xmi:type="process:JavaObjectData" xmi:id="_PoCUQN7vEfGJAaZnSquGbw" name="response" dataType="_qnkYkaKMEfGM4bfaUYLK2A" className="java.util.Map">
+            <defaultValue xmi:type="expression:Expression" xmi:id="_PoCUQd7vEfGJAaZnSquGbw" content="" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.Map"/>
           </data>
           <connectors xmi:type="process:Connector" xmi:id="_MDsFwN7ZEfGJAaZnSquGbw" name="Login API Backend" definitionId="rest-post" event="ON_ENTER" definitionVersion="1.5.0">
             <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_MDsFwd7ZEfGJAaZnSquGbw" definitionId="rest-post" version="1.5.0" modelVersion="9">
@@ -2093,11 +2093,11 @@
               </parameters>
             </configuration>
             <outputs xmi:type="expression:Operation" xmi:id="_ywZlIN7vEfGJAaZnSquGbw">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_ywZlId7vEfGJAaZnSquGbw" name="response" content="response" type="TYPE_VARIABLE" returnType="groovy.json.JsonSlurper">
-                <referencedElements xmi:type="process:JavaObjectData" xmi:id="_ywZlIt7vEfGJAaZnSquGbw" name="response" dataType="_qnkYkaKMEfGM4bfaUYLK2A" className="groovy.json.JsonSlurper"/>
+              <leftOperand xmi:type="expression:Expression" xmi:id="_ywZlId7vEfGJAaZnSquGbw" name="response" content="response" type="TYPE_VARIABLE" returnType="java.util.Map">
+                <referencedElements xmi:type="process:JavaObjectData" xmi:id="_ywZlIt7vEfGJAaZnSquGbw" name="response" dataType="_qnkYkaKMEfGM4bfaUYLK2A" className="java.util.Map"/>
               </leftOperand>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_ywZlI97vEfGJAaZnSquGbw" name="getResponseJSON()" content="import groovy.json.JsonSlurper&#xD;&#xA;&#xD;&#xA;// 1. Obtener la respuesta en texto plano que devuelve el conector REST&#xD;&#xA;if (bodyAsString == null || bodyAsString.trim().isEmpty()) {&#xD;&#xA;&#x9;return &quot;&quot; // o un valor por defecto seguro según tu tipo de variable&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;// 2. Parsear el JSON&#xD;&#xA;def json = new JsonSlurper().parseText(bodyAsString)&#xD;&#xA;&#xD;&#xA;return json" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="groovy.json.JsonSlurper">
-                <referencedElements xmi:type="definition:Output" xmi:id="_ywZlJN7vEfGJAaZnSquGbw" name="bodyAsString" type="java.lang.String"/>
+              <rightOperand xmi:type="expression:Expression" xmi:id="_ywZlI97vEfGJAaZnSquGbw" name="getResponseJSON()" content="import groovy.json.JsonSlurper&#xD;&#xA;import java.util.Map&#xD;&#xA;&#xD;&#xA;// 1. Obtener la respuesta en texto plano que devuelve el conector REST&#xD;&#xA;if (bodyAsString == null || bodyAsString.trim().isEmpty()) {&#xD;&#xA;&#x9;//return &quot;&quot;&#xD;&#xA;&#x9;return [:] as Map&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;// 2. Parsear el JSON&#xD;&#xA;def json = new JsonSlurper().parseText(bodyAsString)&#xD;&#xA;&#xD;&#xA;//return json&#xD;&#xA;return json as Map" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.Map">
+                <referencedElements xmi:type="definition:Output" xmi:id="_twwVcOdtEfGG-PDlmE8Ang" name="bodyAsString" type="java.lang.String"/>
               </rightOperand>
               <operator xmi:type="expression:Operator" xmi:id="_ywZlJd7vEfGJAaZnSquGbw" type="ASSIGNMENT"/>
             </outputs>
