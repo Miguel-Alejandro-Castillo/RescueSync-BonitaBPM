@@ -2841,7 +2841,10 @@
                 <expression xmi:type="expression:Expression" xmi:id="_GEbBKd7QEfGijaiA94UAqA" name="X-Bonita-Task-Assignee-Id" content="X-Bonita-Task-Assignee-Id" returnTypeFixed="true"/>
               </parameters>
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_GEbBKt7QEfGijaiA94UAqA" key="body">
-                <expression xmi:type="expression:Expression" xmi:id="_GEbBK97QEfGijaiA94UAqA" name="&lt;pattern-expression>" type="TYPE_PATTERN" returnTypeFixed="true"/>
+                <expression xmi:type="expression:Expression" xmi:id="_GEbBK97QEfGijaiA94UAqA" name="body()" content="import groovy.json.JsonOutput&#xD;&#xA;&#xD;&#xA;return JsonOutput.toJson([&#xD;&#xA;&#x9;username: api_nacional_user,&#xD;&#xA;&#x9;password: api_nacional_password&#xD;&#xA;])" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
+                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_PYyHwOjpEfGvP968EwrzuA" name="api_nacional_password" typeClassname="java.lang.String" description="Contraseña de la api rest Nacional"/>
+                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_PYyHwejpEfGvP968EwrzuA" name="api_nacional_user" typeClassname="java.lang.String" description="Usuario de la api rest Nacional"/>
+                </expression>
               </parameters>
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_GEbBLN7QEfGijaiA94UAqA" key="do_not_follow_redirect">
                 <expression xmi:type="expression:Expression" xmi:id="_GEbBLd7QEfGijaiA94UAqA" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
