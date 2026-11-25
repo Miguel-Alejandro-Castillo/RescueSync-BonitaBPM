@@ -2796,8 +2796,8 @@
               <leftOperand xmi:type="expression:Expression" xmi:id="_3ro9od7PEfGijaiA94UAqA" name="lista_ofertas_finalizadas_emergencia" content="lista_ofertas_finalizadas_emergencia" type="TYPE_VARIABLE" returnType="java.util.List">
                 <referencedElements xmi:type="process:JavaObjectData" xmi:id="_3ro9ot7PEfGijaiA94UAqA" name="lista_ofertas_finalizadas_emergencia" dataType="_qnkYkaKMEfGM4bfaUYLK2A" className="java.util.List"/>
               </leftOperand>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_3ro9o97PEfGijaiA94UAqA" name="get_ofertas()" content="import groovy.json.JsonSlurperClassic&#xD;&#xA;&#xD;&#xA;if (bodyAsString == null || bodyAsString.trim().isEmpty()) {&#xD;&#xA;&#x9;return []&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;def parsed = new JsonSlurperClassic().parseText(bodyAsString)&#xD;&#xA;return parsed instanceof List ? parsed : []&#xD;&#xA;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.List">
-                <referencedElements xmi:type="definition:Output" xmi:id="_kWSa4OiFEfGVDsKUODiUiw" name="bodyAsString" type="java.lang.String"/>
+              <rightOperand xmi:type="expression:Expression" xmi:id="_3ro9o97PEfGijaiA94UAqA" name="get_ofertas_nuevo()" content="import groovy.json.JsonSlurperClassic&#xD;&#xA;&#xD;&#xA;if (bodyAsString == null || bodyAsString.trim().isEmpty()) {&#xD;&#xA;&#x9;return []&#xD;&#xA;}&#xD;&#xA;// 1. hola&#xD;&#xA;def parsed = new JsonSlurperClassic().parseText(bodyAsString)&#xD;&#xA;return parsed instanceof List ? parsed : []&#xD;&#xA;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.List">
+                <referencedElements xmi:type="definition:Output" xmi:id="_2nh2QOiIEfGVDsKUODiUiw" name="bodyAsString" type="java.lang.String"/>
               </rightOperand>
               <operator xmi:type="expression:Operator" xmi:id="_3ro9pd7PEfGijaiA94UAqA" type="ASSIGNMENT"/>
             </outputs>
